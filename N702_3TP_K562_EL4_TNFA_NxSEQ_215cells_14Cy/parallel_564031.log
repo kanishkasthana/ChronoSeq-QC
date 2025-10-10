@@ -1,0 +1,7 @@
+/new-stg/home/kanishk2/mixedHumanMouse/PE100/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy
+gpu-1
+Mon Jan 27 02:51:23 PST 2025
+Namespace(READ1_FASTQ='/stg1/data2/kanishk/BaseSpace_Data/PE100_Data/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy_S2_L003_R1_001.fastq.gz', READ2_FASTQ='/stg1/data2/kanishk/BaseSpace_Data/PE100_Data/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy_S2_L003_R2_001.fastq.gz', SAMPLE_DIRECTORY_PATH='/stg1/data2/kanishk/kanishk2/mixedHumanMouse/PE100/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy', SAMPLE_NAME='N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy')
+Lock Acquired Starting Copy to Scratch!
+Started Copying files to  /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/starGenomeIndex  at:  2025-01-27 02:51:24.154149
+slurmstepd-gpu-1: error: *** JOB 564031 ON gpu-1 CANCELLED AT 2025-01-27T02:52:31 ***

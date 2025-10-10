@@ -1,0 +1,500 @@
+/new-stg/home/kanishk2/mixedHumanMouse/July_2024_QC_3Timepoint_SC_ChronoSeqV4_Pilot_PBMC_K562/SC_3TP_QC_K562_EL4
+compute-2
+Mon Aug  5 13:28:20 PDT 2024
+Namespace(BARCODES_FILE='/stg1/data2/kanishk/kanishk2/mixedHumanMouse/July_2024_QC_3Timepoint_SC_ChronoSeqV4_Pilot_PBMC_K562/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.counts.txt.gz.top_barcodes.txt', INPUT_FILE='/stg1/data2/kanishk/kanishk2/mixedHumanMouse/July_2024_QC_3Timepoint_SC_ChronoSeqV4_Pilot_PBMC_K562/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.bam')
+Lock Acquired Starting Copy to Scratch!
+Started Copying :  SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.bam  at  2024-08-05 13:28:21.197316
+Finished Copying :  SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.bam  at  2024-08-05 13:29:01.694387
+Time Taken:  0:00:40.497071
+Started Copying :  SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.counts.txt.gz.top_barcodes.txt  at  2024-08-05 13:29:01.694782
+Finished Copying :  SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.counts.txt.gz.top_barcodes.txt  at  2024-08-05 13:29:01.696327
+Time Taken:  0:00:00.001545
+INFO	2024-08-05 13:29:02	FilterBam	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    FilterBam -INPUT /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.bam -OUTPUT /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.HUMAN_ONLY.bam -REF_SOFT_MATCHED_RETAINED HUMAN -TMP_DIR /scratch/SC_3TP_QC_K562_EL4/TMP/
+**********
+
+
+13:29:02.629 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/stg1/data2/kanishk/Drop-seq_tools-2.4.0/jar/lib/picard-2.20.5.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Aug 05 13:29:02 PDT 2024] FilterBam INPUT=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.bam OUTPUT=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.HUMAN_ONLY.bam REF_SOFT_MATCHED_RETAINED=[HUMAN] TMP_DIR=[/scratch/SC_3TP_QC_K562_EL4/TMP]    FILTER_PCR_DUPES=false RETAIN_ONLY_PRIMARY_READS=false DROP_REJECTED_REF=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Mon Aug 05 13:29:02 PDT 2024] Executing as kanishk@compute-2 on Linux 4.18.0-348.12.2.el8_5.x86_64 amd64; OpenJDK 64-Bit Server VM 10.0.2+13; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.4.0(3d2b3d8_1600201514)
+INFO	2024-08-05 13:29:10	FilterBam	Processed     1,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_1:23,408,823
+INFO	2024-08-05 13:29:17	FilterBam	Processed     2,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_1:32,799,838
+INFO	2024-08-05 13:29:25	FilterBam	Processed     3,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_1:43,166,619
+INFO	2024-08-05 13:29:32	FilterBam	Processed     4,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_1:70,694,233
+INFO	2024-08-05 13:29:39	FilterBam	Processed     5,000,000 records.  Elapsed time: 00:00:36s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_1:150,199,040
+INFO	2024-08-05 13:29:46	FilterBam	Processed     6,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_1:168,221,699
+INFO	2024-08-05 13:29:53	FilterBam	Processed     7,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_1:214,818,281
+INFO	2024-08-05 13:30:01	FilterBam	Processed     8,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_2:10,059,913
+INFO	2024-08-05 13:30:12	FilterBam	Processed     9,000,000 records.  Elapsed time: 00:01:10s.  Time for last 1,000,000:   11s.  Last read position: HUMAN_2:33,141,331
+INFO	2024-08-05 13:30:25	FilterBam	Processed    10,000,000 records.  Elapsed time: 00:01:22s.  Time for last 1,000,000:   12s.  Last read position: HUMAN_2:64,480,289
+INFO	2024-08-05 13:30:32	FilterBam	Processed    11,000,000 records.  Elapsed time: 00:01:29s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_2:122,514,880
+INFO	2024-08-05 13:30:39	FilterBam	Processed    12,000,000 records.  Elapsed time: 00:01:36s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_2:188,361,720
+INFO	2024-08-05 13:30:46	FilterBam	Processed    13,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_2:234,761,237
+INFO	2024-08-05 13:30:54	FilterBam	Processed    14,000,000 records.  Elapsed time: 00:01:51s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_3:45,028,930
+INFO	2024-08-05 13:31:01	FilterBam	Processed    15,000,000 records.  Elapsed time: 00:01:58s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_3:150,300,917
+INFO	2024-08-05 13:31:08	FilterBam	Processed    16,000,000 records.  Elapsed time: 00:02:05s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_4:56,236,286
+INFO	2024-08-05 13:31:15	FilterBam	Processed    17,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_4:130,015,040
+INFO	2024-08-05 13:31:22	FilterBam	Processed    18,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_5:53,610,366
+INFO	2024-08-05 13:31:29	FilterBam	Processed    19,000,000 records.  Elapsed time: 00:02:26s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_5:133,307,886
+INFO	2024-08-05 13:31:36	FilterBam	Processed    20,000,000 records.  Elapsed time: 00:02:34s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_5:165,809,475
+INFO	2024-08-05 13:31:44	FilterBam	Processed    21,000,000 records.  Elapsed time: 00:02:41s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_6:15,049,844
+INFO	2024-08-05 13:31:51	FilterBam	Processed    22,000,000 records.  Elapsed time: 00:02:48s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_6:34,392,530
+INFO	2024-08-05 13:31:58	FilterBam	Processed    23,000,000 records.  Elapsed time: 00:02:55s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_6:64,422,966
+INFO	2024-08-05 13:32:05	FilterBam	Processed    24,000,000 records.  Elapsed time: 00:03:02s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_6:125,598,347
+INFO	2024-08-05 13:32:12	FilterBam	Processed    25,000,000 records.  Elapsed time: 00:03:09s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_7:5,567,776
+INFO	2024-08-05 13:32:19	FilterBam	Processed    26,000,000 records.  Elapsed time: 00:03:17s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_7:35,930,372
+INFO	2024-08-05 13:32:27	FilterBam	Processed    27,000,000 records.  Elapsed time: 00:03:24s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_7:86,825,588
+INFO	2024-08-05 13:32:34	FilterBam	Processed    28,000,000 records.  Elapsed time: 00:03:31s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_7:127,231,436
+INFO	2024-08-05 13:32:41	FilterBam	Processed    29,000,000 records.  Elapsed time: 00:03:38s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_8:27,593,624
+INFO	2024-08-05 13:32:48	FilterBam	Processed    30,000,000 records.  Elapsed time: 00:03:45s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_8:101,730,395
+INFO	2024-08-05 13:32:55	FilterBam	Processed    31,000,000 records.  Elapsed time: 00:03:53s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_9:32,986,370
+INFO	2024-08-05 13:33:03	FilterBam	Processed    32,000,000 records.  Elapsed time: 00:04:00s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_9:127,620,203
+INFO	2024-08-05 13:33:10	FilterBam	Processed    33,000,000 records.  Elapsed time: 00:04:07s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_9:139,757,771
+INFO	2024-08-05 13:33:17	FilterBam	Processed    34,000,000 records.  Elapsed time: 00:04:14s.  Time for last 1,000,000:    6s.  Last read position: HUMAN_10:76,990,836
+INFO	2024-08-05 13:33:24	FilterBam	Processed    35,000,000 records.  Elapsed time: 00:04:21s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_11:3,028,141
+INFO	2024-08-05 13:33:32	FilterBam	Processed    36,000,000 records.  Elapsed time: 00:04:29s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_11:5,275,563
+INFO	2024-08-05 13:33:39	FilterBam	Processed    37,000,000 records.  Elapsed time: 00:04:37s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_11:58,379,097
+INFO	2024-08-05 13:33:47	FilterBam	Processed    38,000,000 records.  Elapsed time: 00:04:44s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_11:65,266,516
+INFO	2024-08-05 13:33:54	FilterBam	Processed    39,000,000 records.  Elapsed time: 00:04:52s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_11:65,267,897
+INFO	2024-08-05 13:34:02	FilterBam	Processed    40,000,000 records.  Elapsed time: 00:04:59s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_11:93,482,891
+INFO	2024-08-05 13:34:09	FilterBam	Processed    41,000,000 records.  Elapsed time: 00:05:06s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_12:11,324,297
+INFO	2024-08-05 13:34:16	FilterBam	Processed    42,000,000 records.  Elapsed time: 00:05:13s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_12:56,119,604
+INFO	2024-08-05 13:34:23	FilterBam	Processed    43,000,000 records.  Elapsed time: 00:05:21s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_12:104,327,856
+INFO	2024-08-05 13:34:31	FilterBam	Processed    44,000,000 records.  Elapsed time: 00:05:28s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_12:123,282,698
+INFO	2024-08-05 13:34:38	FilterBam	Processed    45,000,000 records.  Elapsed time: 00:05:35s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_13:91,155,745
+INFO	2024-08-05 13:34:45	FilterBam	Processed    46,000,000 records.  Elapsed time: 00:05:43s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_14:66,479,868
+INFO	2024-08-05 13:34:52	FilterBam	Processed    47,000,000 records.  Elapsed time: 00:05:50s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_15:34,678,873
+INFO	2024-08-05 13:35:00	FilterBam	Processed    48,000,000 records.  Elapsed time: 00:05:57s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_15:69,747,821
+INFO	2024-08-05 13:35:07	FilterBam	Processed    49,000,000 records.  Elapsed time: 00:06:04s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_16:2,012,514
+INFO	2024-08-05 13:35:14	FilterBam	Processed    50,000,000 records.  Elapsed time: 00:06:12s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_16:28,725,028
+INFO	2024-08-05 13:35:21	FilterBam	Processed    51,000,000 records.  Elapsed time: 00:06:19s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_16:84,773,959
+INFO	2024-08-05 13:35:29	FilterBam	Processed    52,000,000 records.  Elapsed time: 00:06:26s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_17:16,342,986
+INFO	2024-08-05 13:35:36	FilterBam	Processed    53,000,000 records.  Elapsed time: 00:06:33s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_17:40,467,319
+INFO	2024-08-05 13:35:43	FilterBam	Processed    54,000,000 records.  Elapsed time: 00:06:40s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_17:65,105,616
+INFO	2024-08-05 13:35:50	FilterBam	Processed    55,000,000 records.  Elapsed time: 00:06:47s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_18:33,599,861
+INFO	2024-08-05 13:35:57	FilterBam	Processed    56,000,000 records.  Elapsed time: 00:06:55s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_19:8,028,685
+INFO	2024-08-05 13:36:05	FilterBam	Processed    57,000,000 records.  Elapsed time: 00:07:02s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_19:19,113,852
+INFO	2024-08-05 13:36:12	FilterBam	Processed    58,000,000 records.  Elapsed time: 00:07:09s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_19:47,112,524
+INFO	2024-08-05 13:36:20	FilterBam	Processed    59,000,000 records.  Elapsed time: 00:07:17s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_19:58,899,516
+INFO	2024-08-05 13:36:27	FilterBam	Processed    60,000,000 records.  Elapsed time: 00:07:24s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_20:43,995,956
+INFO	2024-08-05 13:36:34	FilterBam	Processed    61,000,000 records.  Elapsed time: 00:07:31s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_21:44,515,557
+INFO	2024-08-05 13:36:41	FilterBam	Processed    62,000,000 records.  Elapsed time: 00:07:39s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_22:30,976,132
+INFO	2024-08-05 13:36:48	FilterBam	Processed    63,000,000 records.  Elapsed time: 00:07:46s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_X:44,820,454
+INFO	2024-08-05 13:36:56	FilterBam	Processed    64,000,000 records.  Elapsed time: 00:07:53s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_X:153,712,214
+INFO	2024-08-05 13:37:03	FilterBam	Processed    65,000,000 records.  Elapsed time: 00:08:00s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_MT:2,168
+INFO	2024-08-05 13:37:10	FilterBam	Processed    66,000,000 records.  Elapsed time: 00:08:08s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_MT:6,432
+INFO	2024-08-05 13:37:18	FilterBam	Processed    67,000,000 records.  Elapsed time: 00:08:15s.  Time for last 1,000,000:    7s.  Last read position: HUMAN_MT:15,033
+INFO	2024-08-05 13:37:22	FilterBam	Processed    68,000,000 records.  Elapsed time: 00:08:19s.  Time for last 1,000,000:    4s.  Last read position: MOUSE_10:34,002,465
+INFO	2024-08-05 13:37:24	FilterBam	Processed    69,000,000 records.  Elapsed time: 00:08:21s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_10:77,985,138
+INFO	2024-08-05 13:37:26	FilterBam	Processed    70,000,000 records.  Elapsed time: 00:08:23s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_10:86,701,746
+INFO	2024-08-05 13:37:28	FilterBam	Processed    71,000,000 records.  Elapsed time: 00:08:25s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_10:128,089,100
+INFO	2024-08-05 13:37:30	FilterBam	Processed    72,000,000 records.  Elapsed time: 00:08:27s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_11:23,267,703
+INFO	2024-08-05 13:37:32	FilterBam	Processed    73,000,000 records.  Elapsed time: 00:08:30s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_11:50,299,224
+INFO	2024-08-05 13:37:35	FilterBam	Processed    74,000,000 records.  Elapsed time: 00:08:32s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_11:62,552,773
+INFO	2024-08-05 13:37:37	FilterBam	Processed    75,000,000 records.  Elapsed time: 00:08:34s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_11:75,490,023
+INFO	2024-08-05 13:37:39	FilterBam	Processed    76,000,000 records.  Elapsed time: 00:08:36s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_11:94,296,884
+INFO	2024-08-05 13:37:41	FilterBam	Processed    77,000,000 records.  Elapsed time: 00:08:38s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_11:101,525,418
+INFO	2024-08-05 13:37:43	FilterBam	Processed    78,000,000 records.  Elapsed time: 00:08:40s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_11:119,293,929
+INFO	2024-08-05 13:37:45	FilterBam	Processed    79,000,000 records.  Elapsed time: 00:08:43s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_12:36,104,299
+INFO	2024-08-05 13:37:47	FilterBam	Processed    80,000,000 records.  Elapsed time: 00:08:45s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_12:80,874,310
+INFO	2024-08-05 13:37:50	FilterBam	Processed    81,000,000 records.  Elapsed time: 00:08:47s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_12:100,207,143
+INFO	2024-08-05 13:37:52	FilterBam	Processed    82,000,000 records.  Elapsed time: 00:08:49s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_13:14,625,603
+INFO	2024-08-05 13:37:54	FilterBam	Processed    83,000,000 records.  Elapsed time: 00:08:51s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_13:64,134,763
+INFO	2024-08-05 13:37:56	FilterBam	Processed    84,000,000 records.  Elapsed time: 00:08:53s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_14:8,169,764
+INFO	2024-08-05 13:37:58	FilterBam	Processed    85,000,000 records.  Elapsed time: 00:08:55s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_14:52,081,837
+INFO	2024-08-05 13:38:00	FilterBam	Processed    86,000,000 records.  Elapsed time: 00:08:58s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_14:76,114,203
+INFO	2024-08-05 13:38:02	FilterBam	Processed    87,000,000 records.  Elapsed time: 00:09:00s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_15:34,083,336
+INFO	2024-08-05 13:38:05	FilterBam	Processed    88,000,000 records.  Elapsed time: 00:09:02s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_15:36,605,533
+INFO	2024-08-05 13:38:07	FilterBam	Processed    89,000,000 records.  Elapsed time: 00:09:04s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_15:78,940,558
+INFO	2024-08-05 13:38:09	FilterBam	Processed    90,000,000 records.  Elapsed time: 00:09:06s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_15:98,949,868
+INFO	2024-08-05 13:38:11	FilterBam	Processed    91,000,000 records.  Elapsed time: 00:09:08s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_16:18,239,995
+INFO	2024-08-05 13:38:13	FilterBam	Processed    92,000,000 records.  Elapsed time: 00:09:10s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_16:76,292,694
+INFO	2024-08-05 13:38:15	FilterBam	Processed    93,000,000 records.  Elapsed time: 00:09:13s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_17:23,819,071
+INFO	2024-08-05 13:38:17	FilterBam	Processed    94,000,000 records.  Elapsed time: 00:09:15s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_17:33,746,727
+INFO	2024-08-05 13:38:20	FilterBam	Processed    95,000,000 records.  Elapsed time: 00:09:17s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_17:42,796,151
+INFO	2024-08-05 13:38:22	FilterBam	Processed    96,000,000 records.  Elapsed time: 00:09:19s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_17:50,800,182
+INFO	2024-08-05 13:38:24	FilterBam	Processed    97,000,000 records.  Elapsed time: 00:09:21s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_18:7,916,117
+INFO	2024-08-05 13:38:26	FilterBam	Processed    98,000,000 records.  Elapsed time: 00:09:23s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_18:42,571,129
+INFO	2024-08-05 13:38:28	FilterBam	Processed    99,000,000 records.  Elapsed time: 00:09:26s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_18:84,871,614
+INFO	2024-08-05 13:38:30	FilterBam	Processed   100,000,000 records.  Elapsed time: 00:09:28s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_19:5,802,435
+INFO	2024-08-05 13:38:33	FilterBam	Processed   101,000,000 records.  Elapsed time: 00:09:30s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_19:16,383,802
+INFO	2024-08-05 13:38:35	FilterBam	Processed   102,000,000 records.  Elapsed time: 00:09:32s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_19:47,734,905
+INFO	2024-08-05 13:38:37	FilterBam	Processed   103,000,000 records.  Elapsed time: 00:09:34s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_1:30,820,707
+INFO	2024-08-05 13:38:39	FilterBam	Processed   104,000,000 records.  Elapsed time: 00:09:36s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_1:66,831,055
+INFO	2024-08-05 13:38:41	FilterBam	Processed   105,000,000 records.  Elapsed time: 00:09:38s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_1:86,356,710
+INFO	2024-08-05 13:38:43	FilterBam	Processed   106,000,000 records.  Elapsed time: 00:09:40s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_1:118,332,438
+INFO	2024-08-05 13:38:45	FilterBam	Processed   107,000,000 records.  Elapsed time: 00:09:42s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_1:162,692,608
+INFO	2024-08-05 13:38:47	FilterBam	Processed   108,000,000 records.  Elapsed time: 00:09:45s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_1:189,896,666
+INFO	2024-08-05 13:38:49	FilterBam	Processed   109,000,000 records.  Elapsed time: 00:09:47s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_2:32,962,616
+INFO	2024-08-05 13:38:51	FilterBam	Processed   110,000,000 records.  Elapsed time: 00:09:49s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_2:75,248,388
+INFO	2024-08-05 13:38:53	FilterBam	Processed   111,000,000 records.  Elapsed time: 00:09:51s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_2:112,645,242
+INFO	2024-08-05 13:38:55	FilterBam	Processed   112,000,000 records.  Elapsed time: 00:09:53s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_2:144,142,692
+INFO	2024-08-05 13:38:58	FilterBam	Processed   113,000,000 records.  Elapsed time: 00:09:55s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_2:180,036,369
+INFO	2024-08-05 13:39:00	FilterBam	Processed   114,000,000 records.  Elapsed time: 00:09:57s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_3:84,005,753
+INFO	2024-08-05 13:39:02	FilterBam	Processed   115,000,000 records.  Elapsed time: 00:09:59s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_3:96,630,531
+INFO	2024-08-05 13:39:04	FilterBam	Processed   116,000,000 records.  Elapsed time: 00:10:01s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_3:137,866,050
+INFO	2024-08-05 13:39:06	FilterBam	Processed   117,000,000 records.  Elapsed time: 00:10:03s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_4:44,012,848
+INFO	2024-08-05 13:39:08	FilterBam	Processed   118,000,000 records.  Elapsed time: 00:10:05s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_4:86,855,959
+INFO	2024-08-05 13:39:10	FilterBam	Processed   119,000,000 records.  Elapsed time: 00:10:07s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_4:118,177,411
+INFO	2024-08-05 13:39:12	FilterBam	Processed   120,000,000 records.  Elapsed time: 00:10:09s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_4:121,145,884
+INFO	2024-08-05 13:39:14	FilterBam	Processed   121,000,000 records.  Elapsed time: 00:10:11s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_4:132,544,065
+INFO	2024-08-05 13:39:16	FilterBam	Processed   122,000,000 records.  Elapsed time: 00:10:14s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_4:147,862,818
+INFO	2024-08-05 13:39:18	FilterBam	Processed   123,000,000 records.  Elapsed time: 00:10:16s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_5:21,786,717
+INFO	2024-08-05 13:39:20	FilterBam	Processed   124,000,000 records.  Elapsed time: 00:10:18s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_5:65,389,487
+INFO	2024-08-05 13:39:22	FilterBam	Processed   125,000,000 records.  Elapsed time: 00:10:20s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_5:107,907,241
+INFO	2024-08-05 13:39:24	FilterBam	Processed   126,000,000 records.  Elapsed time: 00:10:22s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_5:123,736,643
+INFO	2024-08-05 13:39:27	FilterBam	Processed   127,000,000 records.  Elapsed time: 00:10:24s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_5:140,426,530
+INFO	2024-08-05 13:39:29	FilterBam	Processed   128,000,000 records.  Elapsed time: 00:10:26s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_5:142,904,620
+INFO	2024-08-05 13:39:31	FilterBam	Processed   129,000,000 records.  Elapsed time: 00:10:28s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_6:29,374,747
+INFO	2024-08-05 13:39:33	FilterBam	Processed   130,000,000 records.  Elapsed time: 00:10:30s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_6:52,742,750
+INFO	2024-08-05 13:39:35	FilterBam	Processed   131,000,000 records.  Elapsed time: 00:10:32s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_6:85,945,822
+INFO	2024-08-05 13:39:37	FilterBam	Processed   132,000,000 records.  Elapsed time: 00:10:34s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_6:122,733,657
+INFO	2024-08-05 13:39:39	FilterBam	Processed   133,000,000 records.  Elapsed time: 00:10:36s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_6:136,923,805
+INFO	2024-08-05 13:39:41	FilterBam	Processed   134,000,000 records.  Elapsed time: 00:10:38s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_7:16,454,170
+INFO	2024-08-05 13:39:43	FilterBam	Processed   135,000,000 records.  Elapsed time: 00:10:40s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_7:44,533,373
+INFO	2024-08-05 13:39:45	FilterBam	Processed   136,000,000 records.  Elapsed time: 00:10:42s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_7:63,542,853
+INFO	2024-08-05 13:39:47	FilterBam	Processed   137,000,000 records.  Elapsed time: 00:10:45s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_7:111,074,806
+INFO	2024-08-05 13:39:49	FilterBam	Processed   138,000,000 records.  Elapsed time: 00:10:47s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_7:127,237,265
+INFO	2024-08-05 13:39:51	FilterBam	Processed   139,000,000 records.  Elapsed time: 00:10:49s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_8:22,206,814
+INFO	2024-08-05 13:39:53	FilterBam	Processed   140,000,000 records.  Elapsed time: 00:10:51s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_8:70,508,444
+INFO	2024-08-05 13:39:56	FilterBam	Processed   141,000,000 records.  Elapsed time: 00:10:53s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_8:94,019,420
+INFO	2024-08-05 13:39:58	FilterBam	Processed   142,000,000 records.  Elapsed time: 00:10:55s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_8:122,467,031
+INFO	2024-08-05 13:40:00	FilterBam	Processed   143,000,000 records.  Elapsed time: 00:10:57s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_9:4,296,790
+INFO	2024-08-05 13:40:02	FilterBam	Processed   144,000,000 records.  Elapsed time: 00:10:59s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_9:44,319,651
+INFO	2024-08-05 13:40:04	FilterBam	Processed   145,000,000 records.  Elapsed time: 00:11:01s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_9:59,668,936
+INFO	2024-08-05 13:40:06	FilterBam	Processed   146,000,000 records.  Elapsed time: 00:11:03s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_9:64,290,382
+INFO	2024-08-05 13:40:08	FilterBam	Processed   147,000,000 records.  Elapsed time: 00:11:05s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_9:79,775,187
+INFO	2024-08-05 13:40:10	FilterBam	Processed   148,000,000 records.  Elapsed time: 00:11:07s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_9:112,187,594
+INFO	2024-08-05 13:40:12	FilterBam	Processed   149,000,000 records.  Elapsed time: 00:11:09s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_Un_JH584304:60,449
+INFO	2024-08-05 13:40:14	FilterBam	Processed   150,000,000 records.  Elapsed time: 00:11:11s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_X:74,272,695
+INFO	2024-08-05 13:40:16	FilterBam	Processed   151,000,000 records.  Elapsed time: 00:11:14s.  Time for last 1,000,000:    2s.  Last read position: MOUSE_X:106,203,253
+INFO	2024-08-05 13:40:18	FilterBam	Processed   152,000,000 records.  Elapsed time: 00:11:16s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2024-08-05 13:40:20	FilterBam	Processed   153,000,000 records.  Elapsed time: 00:11:17s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:21	FilterBam	Processed   154,000,000 records.  Elapsed time: 00:11:19s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:23	FilterBam	Processed   155,000,000 records.  Elapsed time: 00:11:20s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:24	FilterBam	Processed   156,000,000 records.  Elapsed time: 00:11:22s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:26	FilterBam	Processed   157,000,000 records.  Elapsed time: 00:11:23s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:28	FilterBam	Processed   158,000,000 records.  Elapsed time: 00:11:25s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:29	FilterBam	Processed   159,000,000 records.  Elapsed time: 00:11:26s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:31	FilterBam	Processed   160,000,000 records.  Elapsed time: 00:11:28s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:32	FilterBam	Processed   161,000,000 records.  Elapsed time: 00:11:29s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:34	FilterBam	Processed   162,000,000 records.  Elapsed time: 00:11:31s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:35	FilterBam	Processed   163,000,000 records.  Elapsed time: 00:11:32s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:37	FilterBam	Processed   164,000,000 records.  Elapsed time: 00:11:34s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:38	FilterBam	Processed   165,000,000 records.  Elapsed time: 00:11:36s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:40	FilterBam	Processed   166,000,000 records.  Elapsed time: 00:11:37s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:41	FilterBam	Processed   167,000,000 records.  Elapsed time: 00:11:39s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:43	FilterBam	Processed   168,000,000 records.  Elapsed time: 00:11:40s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:45	FilterBam	Processed   169,000,000 records.  Elapsed time: 00:11:42s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:46	FilterBam	Processed   170,000,000 records.  Elapsed time: 00:11:43s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:48	FilterBam	Processed   171,000,000 records.  Elapsed time: 00:11:45s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:49	FilterBam	Processed   172,000,000 records.  Elapsed time: 00:11:46s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:51	FilterBam	Processed   173,000,000 records.  Elapsed time: 00:11:48s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:52	FilterBam	Processed   174,000,000 records.  Elapsed time: 00:11:50s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:54	FilterBam	Processed   175,000,000 records.  Elapsed time: 00:11:51s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:55	FilterBam	Processed   176,000,000 records.  Elapsed time: 00:11:53s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:57	FilterBam	Processed   177,000,000 records.  Elapsed time: 00:11:54s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:40:59	FilterBam	Processed   178,000,000 records.  Elapsed time: 00:11:56s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:41:00	FilterBam	Processed   179,000,000 records.  Elapsed time: 00:11:57s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:41:02	FilterBam	Processed   180,000,000 records.  Elapsed time: 00:11:59s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:41:03	FilterBam	Processed   181,000,000 records.  Elapsed time: 00:12:01s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:41:04	FilterBam	Total 181603736 reads processed.  67360610 reads accepted; 114243126 reads rejected.
+[Mon Aug 05 13:41:04 PDT 2024] org.broadinstitute.dropseqrna.utils.FilterBam done. Elapsed time: 12.04 minutes.
+Runtime.totalMemory()=1512570880
+INFO	2024-08-05 13:41:05	FilterBam	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    FilterBam -INPUT /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.bam -OUTPUT /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.MOUSE_ONLY.bam -REF_SOFT_MATCHED_RETAINED MOUSE -TMP_DIR /scratch/SC_3TP_QC_K562_EL4/TMP/
+**********
+
+
+13:41:05.318 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/stg1/data2/kanishk/Drop-seq_tools-2.4.0/jar/lib/picard-2.20.5.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Aug 05 13:41:05 PDT 2024] FilterBam INPUT=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.bam OUTPUT=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.MOUSE_ONLY.bam REF_SOFT_MATCHED_RETAINED=[MOUSE] TMP_DIR=[/scratch/SC_3TP_QC_K562_EL4/TMP]    FILTER_PCR_DUPES=false RETAIN_ONLY_PRIMARY_READS=false DROP_REJECTED_REF=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Mon Aug 05 13:41:05 PDT 2024] Executing as kanishk@compute-2 on Linux 4.18.0-348.12.2.el8_5.x86_64 amd64; OpenJDK 64-Bit Server VM 10.0.2+13; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.4.0(3d2b3d8_1600201514)
+INFO	2024-08-05 13:41:07	FilterBam	Processed     1,000,000 records.  Elapsed time: 00:00:02s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_1:23,408,823
+INFO	2024-08-05 13:41:10	FilterBam	Processed     2,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_1:32,799,838
+INFO	2024-08-05 13:41:12	FilterBam	Processed     3,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_1:43,166,619
+INFO	2024-08-05 13:41:14	FilterBam	Processed     4,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_1:70,694,233
+INFO	2024-08-05 13:41:16	FilterBam	Processed     5,000,000 records.  Elapsed time: 00:00:10s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_1:150,199,040
+INFO	2024-08-05 13:41:18	FilterBam	Processed     6,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_1:168,221,699
+INFO	2024-08-05 13:41:19	FilterBam	Processed     7,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_1:214,818,281
+INFO	2024-08-05 13:41:22	FilterBam	Processed     8,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_2:10,059,913
+INFO	2024-08-05 13:41:24	FilterBam	Processed     9,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_2:33,141,331
+INFO	2024-08-05 13:41:26	FilterBam	Processed    10,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_2:64,480,289
+INFO	2024-08-05 13:41:28	FilterBam	Processed    11,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_2:122,514,880
+INFO	2024-08-05 13:41:30	FilterBam	Processed    12,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_2:188,361,720
+INFO	2024-08-05 13:41:32	FilterBam	Processed    13,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_2:234,761,237
+INFO	2024-08-05 13:41:34	FilterBam	Processed    14,000,000 records.  Elapsed time: 00:00:28s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_3:45,028,930
+INFO	2024-08-05 13:41:36	FilterBam	Processed    15,000,000 records.  Elapsed time: 00:00:30s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_3:150,300,917
+INFO	2024-08-05 13:41:38	FilterBam	Processed    16,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_4:56,236,286
+INFO	2024-08-05 13:41:40	FilterBam	Processed    17,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_4:130,015,040
+INFO	2024-08-05 13:41:42	FilterBam	Processed    18,000,000 records.  Elapsed time: 00:00:36s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_5:53,610,366
+INFO	2024-08-05 13:41:44	FilterBam	Processed    19,000,000 records.  Elapsed time: 00:00:38s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_5:133,307,886
+INFO	2024-08-05 13:41:46	FilterBam	Processed    20,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_5:165,809,475
+INFO	2024-08-05 13:41:48	FilterBam	Processed    21,000,000 records.  Elapsed time: 00:00:42s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_6:15,049,844
+INFO	2024-08-05 13:41:50	FilterBam	Processed    22,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_6:34,392,530
+INFO	2024-08-05 13:41:52	FilterBam	Processed    23,000,000 records.  Elapsed time: 00:00:46s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_6:64,422,966
+INFO	2024-08-05 13:41:54	FilterBam	Processed    24,000,000 records.  Elapsed time: 00:00:48s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_6:125,598,347
+INFO	2024-08-05 13:41:56	FilterBam	Processed    25,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_7:5,567,776
+INFO	2024-08-05 13:41:58	FilterBam	Processed    26,000,000 records.  Elapsed time: 00:00:52s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_7:35,930,372
+INFO	2024-08-05 13:42:00	FilterBam	Processed    27,000,000 records.  Elapsed time: 00:00:54s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_7:86,825,588
+INFO	2024-08-05 13:42:02	FilterBam	Processed    28,000,000 records.  Elapsed time: 00:00:56s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_7:127,231,436
+INFO	2024-08-05 13:42:04	FilterBam	Processed    29,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_8:27,593,624
+INFO	2024-08-05 13:42:06	FilterBam	Processed    30,000,000 records.  Elapsed time: 00:01:00s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_8:101,730,395
+INFO	2024-08-05 13:42:08	FilterBam	Processed    31,000,000 records.  Elapsed time: 00:01:02s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_9:32,986,370
+INFO	2024-08-05 13:42:10	FilterBam	Processed    32,000,000 records.  Elapsed time: 00:01:04s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_9:127,620,203
+INFO	2024-08-05 13:42:12	FilterBam	Processed    33,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_9:139,757,771
+INFO	2024-08-05 13:42:14	FilterBam	Processed    34,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_10:76,990,836
+INFO	2024-08-05 13:42:16	FilterBam	Processed    35,000,000 records.  Elapsed time: 00:01:11s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_11:3,028,141
+INFO	2024-08-05 13:42:18	FilterBam	Processed    36,000,000 records.  Elapsed time: 00:01:13s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_11:5,275,563
+INFO	2024-08-05 13:42:20	FilterBam	Processed    37,000,000 records.  Elapsed time: 00:01:15s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_11:58,379,097
+INFO	2024-08-05 13:42:22	FilterBam	Processed    38,000,000 records.  Elapsed time: 00:01:17s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_11:65,266,516
+INFO	2024-08-05 13:42:24	FilterBam	Processed    39,000,000 records.  Elapsed time: 00:01:19s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_11:65,267,897
+INFO	2024-08-05 13:42:26	FilterBam	Processed    40,000,000 records.  Elapsed time: 00:01:21s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_11:93,482,891
+INFO	2024-08-05 13:42:28	FilterBam	Processed    41,000,000 records.  Elapsed time: 00:01:23s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_12:11,324,297
+INFO	2024-08-05 13:42:30	FilterBam	Processed    42,000,000 records.  Elapsed time: 00:01:25s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_12:56,119,604
+INFO	2024-08-05 13:42:32	FilterBam	Processed    43,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_12:104,327,856
+INFO	2024-08-05 13:42:34	FilterBam	Processed    44,000,000 records.  Elapsed time: 00:01:29s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_12:123,282,698
+INFO	2024-08-05 13:42:37	FilterBam	Processed    45,000,000 records.  Elapsed time: 00:01:31s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_13:91,155,745
+INFO	2024-08-05 13:42:39	FilterBam	Processed    46,000,000 records.  Elapsed time: 00:01:33s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_14:66,479,868
+INFO	2024-08-05 13:42:41	FilterBam	Processed    47,000,000 records.  Elapsed time: 00:01:35s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_15:34,678,873
+INFO	2024-08-05 13:42:43	FilterBam	Processed    48,000,000 records.  Elapsed time: 00:01:37s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_15:69,747,821
+INFO	2024-08-05 13:42:45	FilterBam	Processed    49,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_16:2,012,514
+INFO	2024-08-05 13:42:47	FilterBam	Processed    50,000,000 records.  Elapsed time: 00:01:42s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_16:28,725,028
+INFO	2024-08-05 13:42:49	FilterBam	Processed    51,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_16:84,773,959
+INFO	2024-08-05 13:42:51	FilterBam	Processed    52,000,000 records.  Elapsed time: 00:01:46s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_17:16,342,986
+INFO	2024-08-05 13:42:53	FilterBam	Processed    53,000,000 records.  Elapsed time: 00:01:48s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_17:40,467,319
+INFO	2024-08-05 13:42:55	FilterBam	Processed    54,000,000 records.  Elapsed time: 00:01:50s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_17:65,105,616
+INFO	2024-08-05 13:42:57	FilterBam	Processed    55,000,000 records.  Elapsed time: 00:01:52s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_18:33,599,861
+INFO	2024-08-05 13:42:59	FilterBam	Processed    56,000,000 records.  Elapsed time: 00:01:54s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_19:8,028,685
+INFO	2024-08-05 13:43:01	FilterBam	Processed    57,000,000 records.  Elapsed time: 00:01:56s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_19:19,113,852
+INFO	2024-08-05 13:43:03	FilterBam	Processed    58,000,000 records.  Elapsed time: 00:01:58s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_19:47,112,524
+INFO	2024-08-05 13:43:05	FilterBam	Processed    59,000,000 records.  Elapsed time: 00:02:00s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_19:58,899,516
+INFO	2024-08-05 13:43:08	FilterBam	Processed    60,000,000 records.  Elapsed time: 00:02:02s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_20:43,995,956
+INFO	2024-08-05 13:43:10	FilterBam	Processed    61,000,000 records.  Elapsed time: 00:02:04s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_21:44,515,557
+INFO	2024-08-05 13:43:12	FilterBam	Processed    62,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_22:30,976,132
+INFO	2024-08-05 13:43:14	FilterBam	Processed    63,000,000 records.  Elapsed time: 00:02:08s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_X:44,820,454
+INFO	2024-08-05 13:43:16	FilterBam	Processed    64,000,000 records.  Elapsed time: 00:02:10s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_X:153,712,214
+INFO	2024-08-05 13:43:18	FilterBam	Processed    65,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_MT:2,168
+INFO	2024-08-05 13:43:20	FilterBam	Processed    66,000,000 records.  Elapsed time: 00:02:14s.  Time for last 1,000,000:    1s.  Last read position: HUMAN_MT:6,432
+INFO	2024-08-05 13:43:22	FilterBam	Processed    67,000,000 records.  Elapsed time: 00:02:16s.  Time for last 1,000,000:    2s.  Last read position: HUMAN_MT:15,033
+INFO	2024-08-05 13:43:27	FilterBam	Processed    68,000,000 records.  Elapsed time: 00:02:22s.  Time for last 1,000,000:    5s.  Last read position: MOUSE_10:34,002,465
+INFO	2024-08-05 13:43:34	FilterBam	Processed    69,000,000 records.  Elapsed time: 00:02:29s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_10:77,985,138
+INFO	2024-08-05 13:43:41	FilterBam	Processed    70,000,000 records.  Elapsed time: 00:02:36s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_10:86,701,746
+INFO	2024-08-05 13:43:48	FilterBam	Processed    71,000,000 records.  Elapsed time: 00:02:43s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_10:128,089,100
+INFO	2024-08-05 13:43:56	FilterBam	Processed    72,000,000 records.  Elapsed time: 00:02:50s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_11:23,267,703
+INFO	2024-08-05 13:44:03	FilterBam	Processed    73,000,000 records.  Elapsed time: 00:02:58s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_11:50,299,224
+INFO	2024-08-05 13:44:10	FilterBam	Processed    74,000,000 records.  Elapsed time: 00:03:05s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_11:62,552,773
+INFO	2024-08-05 13:44:18	FilterBam	Processed    75,000,000 records.  Elapsed time: 00:03:12s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_11:75,490,023
+INFO	2024-08-05 13:44:25	FilterBam	Processed    76,000,000 records.  Elapsed time: 00:03:19s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_11:94,296,884
+INFO	2024-08-05 13:44:32	FilterBam	Processed    77,000,000 records.  Elapsed time: 00:03:26s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_11:101,525,418
+INFO	2024-08-05 13:44:39	FilterBam	Processed    78,000,000 records.  Elapsed time: 00:03:34s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_11:119,293,929
+INFO	2024-08-05 13:44:46	FilterBam	Processed    79,000,000 records.  Elapsed time: 00:03:41s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_12:36,104,299
+INFO	2024-08-05 13:44:53	FilterBam	Processed    80,000,000 records.  Elapsed time: 00:03:48s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_12:80,874,310
+INFO	2024-08-05 13:45:01	FilterBam	Processed    81,000,000 records.  Elapsed time: 00:03:56s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_12:100,207,143
+INFO	2024-08-05 13:45:08	FilterBam	Processed    82,000,000 records.  Elapsed time: 00:04:03s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_13:14,625,603
+INFO	2024-08-05 13:45:15	FilterBam	Processed    83,000,000 records.  Elapsed time: 00:04:10s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_13:64,134,763
+INFO	2024-08-05 13:45:23	FilterBam	Processed    84,000,000 records.  Elapsed time: 00:04:17s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_14:8,169,764
+INFO	2024-08-05 13:45:30	FilterBam	Processed    85,000,000 records.  Elapsed time: 00:04:24s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_14:52,081,837
+INFO	2024-08-05 13:45:37	FilterBam	Processed    86,000,000 records.  Elapsed time: 00:04:32s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_14:76,114,203
+INFO	2024-08-05 13:45:44	FilterBam	Processed    87,000,000 records.  Elapsed time: 00:04:39s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_15:34,083,336
+INFO	2024-08-05 13:45:52	FilterBam	Processed    88,000,000 records.  Elapsed time: 00:04:47s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_15:36,605,533
+INFO	2024-08-05 13:46:00	FilterBam	Processed    89,000,000 records.  Elapsed time: 00:04:54s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_15:78,940,558
+INFO	2024-08-05 13:46:07	FilterBam	Processed    90,000,000 records.  Elapsed time: 00:05:01s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_15:98,949,868
+INFO	2024-08-05 13:46:14	FilterBam	Processed    91,000,000 records.  Elapsed time: 00:05:08s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_16:18,239,995
+INFO	2024-08-05 13:46:21	FilterBam	Processed    92,000,000 records.  Elapsed time: 00:05:16s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_16:76,292,694
+INFO	2024-08-05 13:46:28	FilterBam	Processed    93,000,000 records.  Elapsed time: 00:05:23s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_17:23,819,071
+INFO	2024-08-05 13:46:35	FilterBam	Processed    94,000,000 records.  Elapsed time: 00:05:30s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_17:33,746,727
+INFO	2024-08-05 13:46:43	FilterBam	Processed    95,000,000 records.  Elapsed time: 00:05:37s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_17:42,796,151
+INFO	2024-08-05 13:46:50	FilterBam	Processed    96,000,000 records.  Elapsed time: 00:05:45s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_17:50,800,182
+INFO	2024-08-05 13:46:58	FilterBam	Processed    97,000,000 records.  Elapsed time: 00:05:52s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_18:7,916,117
+INFO	2024-08-05 13:47:05	FilterBam	Processed    98,000,000 records.  Elapsed time: 00:05:59s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_18:42,571,129
+INFO	2024-08-05 13:47:12	FilterBam	Processed    99,000,000 records.  Elapsed time: 00:06:07s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_18:84,871,614
+INFO	2024-08-05 13:47:20	FilterBam	Processed   100,000,000 records.  Elapsed time: 00:06:14s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_19:5,802,435
+INFO	2024-08-05 13:47:27	FilterBam	Processed   101,000,000 records.  Elapsed time: 00:06:22s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_19:16,383,802
+INFO	2024-08-05 13:47:34	FilterBam	Processed   102,000,000 records.  Elapsed time: 00:06:29s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_19:47,734,905
+INFO	2024-08-05 13:47:42	FilterBam	Processed   103,000,000 records.  Elapsed time: 00:06:36s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_1:30,820,707
+INFO	2024-08-05 13:47:49	FilterBam	Processed   104,000,000 records.  Elapsed time: 00:06:43s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_1:66,831,055
+INFO	2024-08-05 13:47:56	FilterBam	Processed   105,000,000 records.  Elapsed time: 00:06:51s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_1:86,356,710
+INFO	2024-08-05 13:48:04	FilterBam	Processed   106,000,000 records.  Elapsed time: 00:06:59s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_1:118,332,438
+INFO	2024-08-05 13:48:11	FilterBam	Processed   107,000,000 records.  Elapsed time: 00:07:06s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_1:162,692,608
+INFO	2024-08-05 13:48:18	FilterBam	Processed   108,000,000 records.  Elapsed time: 00:07:13s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_1:189,896,666
+INFO	2024-08-05 13:48:25	FilterBam	Processed   109,000,000 records.  Elapsed time: 00:07:20s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_2:32,962,616
+INFO	2024-08-05 13:48:33	FilterBam	Processed   110,000,000 records.  Elapsed time: 00:07:27s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_2:75,248,388
+INFO	2024-08-05 13:48:40	FilterBam	Processed   111,000,000 records.  Elapsed time: 00:07:35s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_2:112,645,242
+INFO	2024-08-05 13:48:47	FilterBam	Processed   112,000,000 records.  Elapsed time: 00:07:42s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_2:144,142,692
+INFO	2024-08-05 13:48:54	FilterBam	Processed   113,000,000 records.  Elapsed time: 00:07:49s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_2:180,036,369
+INFO	2024-08-05 13:49:01	FilterBam	Processed   114,000,000 records.  Elapsed time: 00:07:56s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_3:84,005,753
+INFO	2024-08-05 13:49:09	FilterBam	Processed   115,000,000 records.  Elapsed time: 00:08:03s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_3:96,630,531
+INFO	2024-08-05 13:49:16	FilterBam	Processed   116,000,000 records.  Elapsed time: 00:08:11s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_3:137,866,050
+INFO	2024-08-05 13:49:23	FilterBam	Processed   117,000,000 records.  Elapsed time: 00:08:18s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_4:44,012,848
+INFO	2024-08-05 13:49:31	FilterBam	Processed   118,000,000 records.  Elapsed time: 00:08:25s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_4:86,855,959
+INFO	2024-08-05 13:49:38	FilterBam	Processed   119,000,000 records.  Elapsed time: 00:08:33s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_4:118,177,411
+INFO	2024-08-05 13:49:46	FilterBam	Processed   120,000,000 records.  Elapsed time: 00:08:41s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_4:121,145,884
+INFO	2024-08-05 13:49:53	FilterBam	Processed   121,000,000 records.  Elapsed time: 00:08:48s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_4:132,544,065
+INFO	2024-08-05 13:50:00	FilterBam	Processed   122,000,000 records.  Elapsed time: 00:08:55s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_4:147,862,818
+INFO	2024-08-05 13:50:08	FilterBam	Processed   123,000,000 records.  Elapsed time: 00:09:02s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_5:21,786,717
+INFO	2024-08-05 13:50:15	FilterBam	Processed   124,000,000 records.  Elapsed time: 00:09:09s.  Time for last 1,000,000:    6s.  Last read position: MOUSE_5:65,389,487
+INFO	2024-08-05 13:50:22	FilterBam	Processed   125,000,000 records.  Elapsed time: 00:09:17s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_5:107,907,241
+INFO	2024-08-05 13:50:29	FilterBam	Processed   126,000,000 records.  Elapsed time: 00:09:24s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_5:123,736,643
+INFO	2024-08-05 13:50:36	FilterBam	Processed   127,000,000 records.  Elapsed time: 00:09:31s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_5:140,426,530
+INFO	2024-08-05 13:50:44	FilterBam	Processed   128,000,000 records.  Elapsed time: 00:09:39s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_5:142,904,620
+INFO	2024-08-05 13:50:51	FilterBam	Processed   129,000,000 records.  Elapsed time: 00:09:46s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_6:29,374,747
+INFO	2024-08-05 13:50:59	FilterBam	Processed   130,000,000 records.  Elapsed time: 00:09:53s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_6:52,742,750
+INFO	2024-08-05 13:51:06	FilterBam	Processed   131,000,000 records.  Elapsed time: 00:10:01s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_6:85,945,822
+INFO	2024-08-05 13:51:13	FilterBam	Processed   132,000,000 records.  Elapsed time: 00:10:08s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_6:122,733,657
+INFO	2024-08-05 13:51:21	FilterBam	Processed   133,000,000 records.  Elapsed time: 00:10:15s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_6:136,923,805
+INFO	2024-08-05 13:51:28	FilterBam	Processed   134,000,000 records.  Elapsed time: 00:10:23s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_7:16,454,170
+INFO	2024-08-05 13:51:35	FilterBam	Processed   135,000,000 records.  Elapsed time: 00:10:30s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_7:44,533,373
+INFO	2024-08-05 13:51:43	FilterBam	Processed   136,000,000 records.  Elapsed time: 00:10:37s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_7:63,542,853
+INFO	2024-08-05 13:51:50	FilterBam	Processed   137,000,000 records.  Elapsed time: 00:10:44s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_7:111,074,806
+INFO	2024-08-05 13:51:57	FilterBam	Processed   138,000,000 records.  Elapsed time: 00:10:52s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_7:127,237,265
+INFO	2024-08-05 13:52:04	FilterBam	Processed   139,000,000 records.  Elapsed time: 00:10:59s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_8:22,206,814
+INFO	2024-08-05 13:52:11	FilterBam	Processed   140,000,000 records.  Elapsed time: 00:11:06s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_8:70,508,444
+INFO	2024-08-05 13:52:19	FilterBam	Processed   141,000,000 records.  Elapsed time: 00:11:13s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_8:94,019,420
+INFO	2024-08-05 13:52:26	FilterBam	Processed   142,000,000 records.  Elapsed time: 00:11:20s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_8:122,467,031
+INFO	2024-08-05 13:52:33	FilterBam	Processed   143,000,000 records.  Elapsed time: 00:11:28s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_9:4,296,790
+INFO	2024-08-05 13:52:40	FilterBam	Processed   144,000,000 records.  Elapsed time: 00:11:35s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_9:44,319,651
+INFO	2024-08-05 13:52:47	FilterBam	Processed   145,000,000 records.  Elapsed time: 00:11:42s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_9:59,668,936
+INFO	2024-08-05 13:52:55	FilterBam	Processed   146,000,000 records.  Elapsed time: 00:11:50s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_9:64,290,382
+INFO	2024-08-05 13:53:03	FilterBam	Processed   147,000,000 records.  Elapsed time: 00:11:57s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_9:79,775,187
+INFO	2024-08-05 13:53:10	FilterBam	Processed   148,000,000 records.  Elapsed time: 00:12:04s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_9:112,187,594
+INFO	2024-08-05 13:53:17	FilterBam	Processed   149,000,000 records.  Elapsed time: 00:12:12s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_Un_JH584304:60,449
+INFO	2024-08-05 13:53:24	FilterBam	Processed   150,000,000 records.  Elapsed time: 00:12:19s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_X:74,272,695
+INFO	2024-08-05 13:53:32	FilterBam	Processed   151,000,000 records.  Elapsed time: 00:12:26s.  Time for last 1,000,000:    7s.  Last read position: MOUSE_X:106,203,253
+INFO	2024-08-05 13:53:39	FilterBam	Processed   152,000,000 records.  Elapsed time: 00:12:34s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2024-08-05 13:53:41	FilterBam	Processed   153,000,000 records.  Elapsed time: 00:12:35s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:42	FilterBam	Processed   154,000,000 records.  Elapsed time: 00:12:37s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:44	FilterBam	Processed   155,000,000 records.  Elapsed time: 00:12:38s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:45	FilterBam	Processed   156,000,000 records.  Elapsed time: 00:12:40s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:47	FilterBam	Processed   157,000,000 records.  Elapsed time: 00:12:41s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:48	FilterBam	Processed   158,000,000 records.  Elapsed time: 00:12:43s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:50	FilterBam	Processed   159,000,000 records.  Elapsed time: 00:12:45s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:52	FilterBam	Processed   160,000,000 records.  Elapsed time: 00:12:46s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:53	FilterBam	Processed   161,000,000 records.  Elapsed time: 00:12:48s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:55	FilterBam	Processed   162,000,000 records.  Elapsed time: 00:12:49s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:56	FilterBam	Processed   163,000,000 records.  Elapsed time: 00:12:51s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:58	FilterBam	Processed   164,000,000 records.  Elapsed time: 00:12:52s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:53:59	FilterBam	Processed   165,000,000 records.  Elapsed time: 00:12:54s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:01	FilterBam	Processed   166,000,000 records.  Elapsed time: 00:12:55s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:02	FilterBam	Processed   167,000,000 records.  Elapsed time: 00:12:57s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:04	FilterBam	Processed   168,000,000 records.  Elapsed time: 00:12:59s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:06	FilterBam	Processed   169,000,000 records.  Elapsed time: 00:13:00s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:07	FilterBam	Processed   170,000,000 records.  Elapsed time: 00:13:02s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:09	FilterBam	Processed   171,000,000 records.  Elapsed time: 00:13:03s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:10	FilterBam	Processed   172,000,000 records.  Elapsed time: 00:13:05s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:12	FilterBam	Processed   173,000,000 records.  Elapsed time: 00:13:06s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:13	FilterBam	Processed   174,000,000 records.  Elapsed time: 00:13:08s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:15	FilterBam	Processed   175,000,000 records.  Elapsed time: 00:13:10s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:17	FilterBam	Processed   176,000,000 records.  Elapsed time: 00:13:11s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:18	FilterBam	Processed   177,000,000 records.  Elapsed time: 00:13:13s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:20	FilterBam	Processed   178,000,000 records.  Elapsed time: 00:13:14s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:21	FilterBam	Processed   179,000,000 records.  Elapsed time: 00:13:16s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:23	FilterBam	Processed   180,000,000 records.  Elapsed time: 00:13:17s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:24	FilterBam	Processed   181,000,000 records.  Elapsed time: 00:13:19s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2024-08-05 13:54:25	FilterBam	Total 181603736 reads processed.  84555943 reads accepted; 97047793 reads rejected.
+[Mon Aug 05 13:54:25 PDT 2024] org.broadinstitute.dropseqrna.utils.FilterBam done. Elapsed time: 13.34 minutes.
+Runtime.totalMemory()=1512570880
+INFO	2024-08-05 13:54:26	DigitalExpression	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    DigitalExpression -I /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.HUMAN_ONLY.bam -O /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.HUMAN_ONLY.dge.txt.gz -SUMMARY /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.HUMAN_ONLY.dge.txt.gz.summary.txt -CELL_BC_FILE /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.counts.txt.gz.top_barcodes.txt -TMP_DIR /scratch/SC_3TP_QC_K562_EL4/TMP/
+**********
+
+
+13:54:26.555 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/stg1/data2/kanishk/Drop-seq_tools-2.4.0/jar/lib/picard-2.20.5.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Aug 05 13:54:26 PDT 2024] DigitalExpression SUMMARY=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.HUMAN_ONLY.dge.txt.gz.summary.txt OUTPUT=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.HUMAN_ONLY.dge.txt.gz INPUT=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.HUMAN_ONLY.bam CELL_BC_FILE=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.counts.txt.gz.top_barcodes.txt TMP_DIR=[/scratch/SC_3TP_QC_K562_EL4/TMP]    OUTPUT_READS_INSTEAD=false OMIT_MISSING_CELLS=false CELL_BARCODE_TAG=XC MOLECULAR_BARCODE_TAG=XM EDIT_DISTANCE=1 READ_MQ=10 MIN_BC_READ_THRESHOLD=0 USE_STRAND_INFO=true RARE_UMI_FILTER_THRESHOLD=0.0 GENE_NAME_TAG=gn GENE_STRAND_TAG=gs GENE_FUNCTION_TAG=gf STRAND_STRATEGY=SENSE LOCUS_FUNCTION_LIST=[CODING, UTR] VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Mon Aug 05 13:54:26 PDT 2024] Executing as kanishk@compute-2 on Linux 4.18.0-348.12.2.el8_5.x86_64 amd64; OpenJDK 64-Bit Server VM 10.0.2+13; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.4.0(3d2b3d8_1600201514)
+INFO	2024-08-05 13:54:26	BarcodeListRetrieval	Found 500 cell barcodes in file
+INFO	2024-08-05 13:54:26	DigitalExpression	Calculating digital expression for [500] cells.
+INFO	2024-08-05 13:54:45	UMIIterator	Processed     1,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:   18s.  Last read position: HUMAN_1:153,635,011
+INFO	2024-08-05 13:55:08	UMIIterator	Processed     2,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:   22s.  Last read position: HUMAN_2:152,992,072
+INFO	2024-08-05 13:55:28	UMIIterator	Processed     3,000,000 records.  Elapsed time: 00:01:02s.  Time for last 1,000,000:   20s.  Last read position: HUMAN_4:100,869,548
+INFO	2024-08-05 13:55:47	UMIIterator	Processed     4,000,000 records.  Elapsed time: 00:01:21s.  Time for last 1,000,000:   19s.  Last read position: HUMAN_6:33,243,587
+INFO	2024-08-05 13:56:06	UMIIterator	Processed     5,000,000 records.  Elapsed time: 00:01:40s.  Time for last 1,000,000:   19s.  Last read position: HUMAN_7:96,318,159
+INFO	2024-08-05 13:56:26	UMIIterator	Processed     6,000,000 records.  Elapsed time: 00:01:59s.  Time for last 1,000,000:   19s.  Last read position: HUMAN_9:138,360,126
+INFO	2024-08-05 13:56:44	UMIIterator	Processed     7,000,000 records.  Elapsed time: 00:02:17s.  Time for last 1,000,000:   18s.  Last read position: HUMAN_11:64,888,237
+INFO	2024-08-05 13:57:04	UMIIterator	Processed     8,000,000 records.  Elapsed time: 00:02:38s.  Time for last 1,000,000:   20s.  Last read position: HUMAN_12:123,834,865
+INFO	2024-08-05 13:57:23	UMIIterator	Processed     9,000,000 records.  Elapsed time: 00:02:57s.  Time for last 1,000,000:   19s.  Last read position: HUMAN_16:2,827,006
+INFO	2024-08-05 13:57:45	UMIIterator	Processed    10,000,000 records.  Elapsed time: 00:03:18s.  Time for last 1,000,000:   21s.  Last read position: HUMAN_18:10,532,725
+INFO	2024-08-05 13:58:05	UMIIterator	Processed    11,000,000 records.  Elapsed time: 00:03:38s.  Time for last 1,000,000:   19s.  Last read position: HUMAN_20:34,326,897
+INFO	2024-08-05 13:58:27	UMIIterator	Processed    12,000,000 records.  Elapsed time: 00:04:01s.  Time for last 1,000,000:   22s.  Last read position: HUMAN_MT:8,701
+INFO	2024-08-05 13:58:33	UMIIterator	Sorting finished.
+[Mon Aug 05 13:58:52 PDT 2024] org.broadinstitute.dropseqrna.barnyard.DigitalExpression done. Elapsed time: 4.43 minutes.
+Runtime.totalMemory()=4129816576
+INFO	2024-08-05 13:58:52	DigitalExpression	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    DigitalExpression -I /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.MOUSE_ONLY.bam -O /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.MOUSE_ONLY.dge.txt.gz -SUMMARY /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.MOUSE_ONLY.dge.txt.gz.summary.txt -CELL_BC_FILE /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.counts.txt.gz.top_barcodes.txt -TMP_DIR /scratch/SC_3TP_QC_K562_EL4/TMP/
+**********
+
+
+13:58:53.133 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/stg1/data2/kanishk/Drop-seq_tools-2.4.0/jar/lib/picard-2.20.5.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Aug 05 13:58:53 PDT 2024] DigitalExpression SUMMARY=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.MOUSE_ONLY.dge.txt.gz.summary.txt OUTPUT=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.MOUSE_ONLY.dge.txt.gz INPUT=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.MOUSE_ONLY.bam CELL_BC_FILE=/scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.counts.txt.gz.top_barcodes.txt TMP_DIR=[/scratch/SC_3TP_QC_K562_EL4/TMP]    OUTPUT_READS_INSTEAD=false OMIT_MISSING_CELLS=false CELL_BARCODE_TAG=XC MOLECULAR_BARCODE_TAG=XM EDIT_DISTANCE=1 READ_MQ=10 MIN_BC_READ_THRESHOLD=0 USE_STRAND_INFO=true RARE_UMI_FILTER_THRESHOLD=0.0 GENE_NAME_TAG=gn GENE_STRAND_TAG=gs GENE_FUNCTION_TAG=gf STRAND_STRATEGY=SENSE LOCUS_FUNCTION_LIST=[CODING, UTR] VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Mon Aug 05 13:58:53 PDT 2024] Executing as kanishk@compute-2 on Linux 4.18.0-348.12.2.el8_5.x86_64 amd64; OpenJDK 64-Bit Server VM 10.0.2+13; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.4.0(3d2b3d8_1600201514)
+INFO	2024-08-05 13:58:53	BarcodeListRetrieval	Found 500 cell barcodes in file
+INFO	2024-08-05 13:58:53	DigitalExpression	Calculating digital expression for [500] cells.
+INFO	2024-08-05 13:59:08	UMIIterator	Processed     1,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_10:115,221,585
+INFO	2024-08-05 13:59:26	UMIIterator	Processed     2,000,000 records.  Elapsed time: 00:00:33s.  Time for last 1,000,000:   17s.  Last read position: MOUSE_11:53,706,007
+INFO	2024-08-05 13:59:42	UMIIterator	Processed     3,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_11:100,321,022
+INFO	2024-08-05 13:59:58	UMIIterator	Processed     4,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:   16s.  Last read position: MOUSE_12:78,885,166
+INFO	2024-08-05 14:00:16	UMIIterator	Processed     5,000,000 records.  Elapsed time: 00:01:22s.  Time for last 1,000,000:   17s.  Last read position: MOUSE_13:96,660,131
+INFO	2024-08-05 14:00:31	UMIIterator	Processed     6,000,000 records.  Elapsed time: 00:01:38s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_15:34,440,570
+INFO	2024-08-05 14:00:48	UMIIterator	Processed     7,000,000 records.  Elapsed time: 00:01:54s.  Time for last 1,000,000:   16s.  Last read position: MOUSE_15:103,240,473
+INFO	2024-08-05 14:01:03	UMIIterator	Processed     8,000,000 records.  Elapsed time: 00:02:09s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_17:32,390,948
+INFO	2024-08-05 14:01:18	UMIIterator	Processed     9,000,000 records.  Elapsed time: 00:02:25s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_18:6,436,809
+INFO	2024-08-05 14:01:34	UMIIterator	Processed    10,000,000 records.  Elapsed time: 00:02:41s.  Time for last 1,000,000:   16s.  Last read position: MOUSE_19:5,802,128
+INFO	2024-08-05 14:01:51	UMIIterator	Processed    11,000,000 records.  Elapsed time: 00:02:58s.  Time for last 1,000,000:   17s.  Last read position: MOUSE_1:39,552,083
+INFO	2024-08-05 14:02:06	UMIIterator	Processed    12,000,000 records.  Elapsed time: 00:03:13s.  Time for last 1,000,000:   14s.  Last read position: MOUSE_1:131,910,718
+INFO	2024-08-05 14:02:21	UMIIterator	Processed    13,000,000 records.  Elapsed time: 00:03:27s.  Time for last 1,000,000:   14s.  Last read position: MOUSE_2:53,159,279
+INFO	2024-08-05 14:02:36	UMIIterator	Processed    14,000,000 records.  Elapsed time: 00:03:43s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_2:173,015,550
+INFO	2024-08-05 14:02:51	UMIIterator	Processed    15,000,000 records.  Elapsed time: 00:03:58s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_3:146,521,199
+INFO	2024-08-05 14:03:06	UMIIterator	Processed    16,000,000 records.  Elapsed time: 00:04:13s.  Time for last 1,000,000:   14s.  Last read position: MOUSE_4:119,279,085
+INFO	2024-08-05 14:03:21	UMIIterator	Processed    17,000,000 records.  Elapsed time: 00:04:28s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_4:152,039,665
+INFO	2024-08-05 14:03:37	UMIIterator	Processed    18,000,000 records.  Elapsed time: 00:04:44s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_5:121,206,785
+INFO	2024-08-05 14:03:50	UMIIterator	Processed    19,000,000 records.  Elapsed time: 00:04:57s.  Time for last 1,000,000:   13s.  Last read position: MOUSE_5:147,078,985
+INFO	2024-08-05 14:04:06	UMIIterator	Processed    20,000,000 records.  Elapsed time: 00:05:13s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_6:115,805,525
+INFO	2024-08-05 14:04:21	UMIIterator	Processed    21,000,000 records.  Elapsed time: 00:05:28s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_7:34,207,627
+INFO	2024-08-05 14:04:36	UMIIterator	Processed    22,000,000 records.  Elapsed time: 00:05:43s.  Time for last 1,000,000:   14s.  Last read position: MOUSE_7:126,795,235
+INFO	2024-08-05 14:04:51	UMIIterator	Processed    23,000,000 records.  Elapsed time: 00:05:58s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_8:94,153,933
+INFO	2024-08-05 14:05:08	UMIIterator	Processed    24,000,000 records.  Elapsed time: 00:06:14s.  Time for last 1,000,000:   16s.  Last read position: MOUSE_9:54,956,298
+INFO	2024-08-05 14:05:22	UMIIterator	Processed    25,000,000 records.  Elapsed time: 00:06:29s.  Time for last 1,000,000:   14s.  Last read position: MOUSE_9:106,888,990
+INFO	2024-08-05 14:05:38	UMIIterator	Processed    26,000,000 records.  Elapsed time: 00:06:45s.  Time for last 1,000,000:   15s.  Last read position: MOUSE_X:105,877,082
+INFO	2024-08-05 14:05:45	UMIIterator	Sorting finished.
+[Mon Aug 05 14:06:28 PDT 2024] org.broadinstitute.dropseqrna.barnyard.DigitalExpression done. Elapsed time: 7.59 minutes.
+Runtime.totalMemory()=4143972352
+Deleted Directory: /scratch/SC_3TP_QC_K562_EL4/TMP/
+Deleted file: /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.bam
+Deleted file: /scratch/SC_3TP_QC_K562_EL4/SC_3TP_QC_K562_EL4.aligned.sorted.merged.tagged.counts.txt.gz.top_barcodes.txt
+Lock Acquired Copying Final Files Back to Storage Server!
+Started Copying files to  /stg1/data2/kanishk/kanishk2/mixedHumanMouse/July_2024_QC_3Timepoint_SC_ChronoSeqV4_Pilot_PBMC_K562/SC_3TP_QC_K562_EL4  at:  2024-08-05 14:06:29.197517
+Finished Copying files to  /stg1/data2/kanishk/kanishk2/mixedHumanMouse/July_2024_QC_3Timepoint_SC_ChronoSeqV4_Pilot_PBMC_K562/SC_3TP_QC_K562_EL4  at:  2024-08-05 14:06:41.820040
+Time Taken : 0:00:12.622523
+Deleted Directory: /scratch/SC_3TP_QC_K562_EL4
+Mon Aug  5 14:06:42 PDT 2024

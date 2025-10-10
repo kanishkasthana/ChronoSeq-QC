@@ -1,0 +1,4 @@
+/new-stg/home/kanishk2/mixedHumanMouse/PE100/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy
+compute-16
+Tue Jan 28 11:43:43 PST 2025
+Namespace(BARCODES_FILE='/stg1/data2/kanishk/kanishk2/mixedHumanMouse/PE100/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy.aligned.sorted.merged.tagged.counts.txt.gz.top_barcodes.txt', INPUT_FILE='/stg1/data2/kanishk/kanishk2/mixedHumanMouse/PE100/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy.aligned.sorted.merged.tagged.bam')

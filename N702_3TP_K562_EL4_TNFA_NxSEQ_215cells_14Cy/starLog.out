@@ -1,0 +1,703 @@
+STAR version=STAR_2.6.1a_08-27
+STAR compilation time,server,dir=Mon Aug 27 18:20:13 EDT 2018 florence.cshl.edu:/sonas-hs/gingeras/nlsas_norepl/user/dobin/STAR/STAR.master/source
+##### DEFAULT parameters:
+versionSTAR                       20201
+versionGenome                     20101   20200   
+parametersFiles                   -   
+sysShell                          -
+runMode                           alignReads
+runThreadN                        1
+runDirPerm                        User_RWX
+runRNGseed                        777
+genomeDir                         ./GenomeDir/
+genomeLoad                        NoSharedMemory
+genomeFastaFiles                  -   
+genomeChainFiles                  -   
+genomeSAindexNbases               14
+genomeChrBinNbits                 18
+genomeSAsparseD                   1
+genomeSuffixLengthMax             18446744073709551615
+genomeFileSizes                   0   
+genomeConsensusFile               -
+readFilesType                     Fastx   
+readFilesIn                       Read1   Read2   
+readFilesPrefix                   -
+readFilesCommand                  -   
+readMatesLengthsIn                NotEqual
+readMapNumber                     18446744073709551615
+readNameSeparator                 /   
+inputBAMfile                      -
+bamRemoveDuplicatesType           -
+bamRemoveDuplicatesMate2basesN    0
+limitGenomeGenerateRAM            31000000000
+limitIObufferSize                 150000000
+limitOutSAMoneReadBytes           100000
+limitOutSJcollapsed               1000000
+limitOutSJoneRead                 1000
+limitBAMsortRAM                   0
+limitSjdbInsertNsj                1000000
+outTmpDir                         -
+outTmpKeep                        None
+outStd                            Log
+outReadsUnmapped                  None
+outQSconversionAdd                0
+outMultimapperOrder               Old_2.4
+outSAMtype                        SAM   
+outSAMmode                        Full
+outSAMstrandField                 None
+outSAMattributes                  Standard   
+outSAMunmapped                    None   
+outSAMorder                       Paired
+outSAMprimaryFlag                 OneBestScore
+outSAMreadID                      Standard
+outSAMmapqUnique                  255
+outSAMflagOR                      0
+outSAMflagAND                     65535
+outSAMattrRGline                  -   
+outSAMheaderHD                    -   
+outSAMheaderPG                    -   
+outSAMheaderCommentFile           -
+outBAMcompression                 1
+outBAMsortingThreadN              0
+outBAMsortingBinsN                50
+outSAMfilter                      None   
+outSAMmultNmax                    18446744073709551615
+outSAMattrIHstart                 1
+outSAMtlen                        1
+outSJfilterReads                  All
+outSJfilterCountUniqueMin         3   1   1   1   
+outSJfilterCountTotalMin          3   1   1   1   
+outSJfilterOverhangMin            30   12   12   12   
+outSJfilterDistToOtherSJmin       10   0   5   10   
+outSJfilterIntronMaxVsReadN       50000   100000   200000   
+outWigType                        None   
+outWigStrand                      Stranded   
+outWigReferencesPrefix            -
+outWigNorm                        RPM   
+outFilterType                     Normal
+outFilterMultimapNmax             10
+outFilterMultimapScoreRange       1
+outFilterScoreMin                 0
+outFilterScoreMinOverLread        0.66
+outFilterMatchNmin                0
+outFilterMatchNminOverLread       0.66
+outFilterMismatchNmax             10
+outFilterMismatchNoverLmax        0.3
+outFilterMismatchNoverReadLmax    1
+outFilterIntronMotifs             None
+outFilterIntronStrands            RemoveInconsistentStrands
+clip5pNbases                      0   
+clip3pNbases                      0   
+clip3pAfterAdapterNbases          0   
+clip3pAdapterSeq                  -   
+clip3pAdapterMMp                  0.1   
+winBinNbits                       16
+winAnchorDistNbins                9
+winFlankNbins                     4
+winAnchorMultimapNmax             50
+winReadCoverageRelativeMin        0.5
+winReadCoverageBasesMin           0
+scoreGap                          0
+scoreGapNoncan                    -8
+scoreGapGCAG                      -4
+scoreGapATAC                      -8
+scoreStitchSJshift                1
+scoreGenomicLengthLog2scale       -0.25
+scoreDelBase                      -2
+scoreDelOpen                      -2
+scoreInsOpen                      -2
+scoreInsBase                      -2
+seedSearchLmax                    0
+seedSearchStartLmax               50
+seedSearchStartLmaxOverLread      1
+seedPerReadNmax                   1000
+seedPerWindowNmax                 50
+seedNoneLociPerWindow             10
+seedMultimapNmax                  10000
+seedSplitMin                      12
+alignIntronMin                    21
+alignIntronMax                    0
+alignMatesGapMax                  0
+alignTranscriptsPerReadNmax       10000
+alignSJoverhangMin                5
+alignSJDBoverhangMin              3
+alignSJstitchMismatchNmax         0   -1   0   0   
+alignSplicedMateMapLmin           0
+alignSplicedMateMapLminOverLmate    0.66
+alignWindowsPerReadNmax           10000
+alignTranscriptsPerWindowNmax     100
+alignEndsType                     Local
+alignSoftClipAtReferenceEnds      Yes
+alignEndsProtrude                 0   ConcordantPair   
+alignInsertionFlush               None
+peOverlapNbasesMin                0
+peOverlapMMp                      0.01
+chimSegmentMin                    0
+chimScoreMin                      0
+chimScoreDropMax                  20
+chimScoreSeparation               10
+chimScoreJunctionNonGTAG          -1
+chimMainSegmentMultNmax           10
+chimJunctionOverhangMin           20
+chimOutType                       Junctions   
+chimFilter                        banGenomicN   
+chimSegmentReadGapMax             0
+chimMultimapNmax                  0
+chimMultimapScoreRange            1
+chimNonchimScoreDropMin           20
+chimOutJunctionFormat             0   
+sjdbFileChrStartEnd               -   
+sjdbGTFfile                       -
+sjdbGTFchrPrefix                  -
+sjdbGTFfeatureExon                exon
+sjdbGTFtagExonParentTranscript    transcript_id
+sjdbGTFtagExonParentGene          gene_id
+sjdbOverhang                      100
+sjdbScore                         2
+sjdbInsertSave                    Basic
+varVCFfile                        -
+waspOutputMode                    None
+quantMode                         -   
+quantTranscriptomeBAMcompression    1
+quantTranscriptomeBan             IndelSoftclipSingleend
+twopass1readsN                    18446744073709551615
+twopassMode                       None
+##### Command Line:
+STAR --runThreadN 20 --genomeDir /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/starGenomeIndex --readFilesIn /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy_unaligned.tagged.Cell.Molecular.Time.Filtered.Adapter_Trimmed.PolyA_Trimmed.fastq --outFileNamePrefix /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/star
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/star
+###### All USER parameters from Command Line:
+runThreadN                    20     ~RE-DEFINED
+genomeDir                     /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/starGenomeIndex     ~RE-DEFINED
+readFilesIn                   /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy_unaligned.tagged.Cell.Molecular.Time.Filtered.Adapter_Trimmed.PolyA_Trimmed.fastq        ~RE-DEFINED
+outFileNamePrefix             /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/star     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        20
+genomeDir                         /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/starGenomeIndex
+readFilesIn                       /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy_unaligned.tagged.Cell.Molecular.Time.Filtered.Adapter_Trimmed.PolyA_Trimmed.fastq   
+outFileNamePrefix                 /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/star
+
+-------------------------------
+##### Final effective command line:
+STAR   --runThreadN 20   --genomeDir /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/starGenomeIndex   --readFilesIn /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy_unaligned.tagged.Cell.Molecular.Time.Filtered.Adapter_Trimmed.PolyA_Trimmed.fastq      --outFileNamePrefix /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/star
+
+##### Final parameters after user input--------------------------------:
+versionSTAR                       20201
+versionGenome                     20101   20200   
+parametersFiles                   -   
+sysShell                          -
+runMode                           alignReads
+runThreadN                        20
+runDirPerm                        User_RWX
+runRNGseed                        777
+genomeDir                         /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/starGenomeIndex
+genomeLoad                        NoSharedMemory
+genomeFastaFiles                  -   
+genomeChainFiles                  -   
+genomeSAindexNbases               14
+genomeChrBinNbits                 18
+genomeSAsparseD                   1
+genomeSuffixLengthMax             18446744073709551615
+genomeFileSizes                   0   
+genomeConsensusFile               -
+readFilesType                     Fastx   
+readFilesIn                       /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy_unaligned.tagged.Cell.Molecular.Time.Filtered.Adapter_Trimmed.PolyA_Trimmed.fastq   
+readFilesPrefix                   -
+readFilesCommand                  -   
+readMatesLengthsIn                NotEqual
+readMapNumber                     18446744073709551615
+readNameSeparator                 /   
+inputBAMfile                      -
+bamRemoveDuplicatesType           -
+bamRemoveDuplicatesMate2basesN    0
+limitGenomeGenerateRAM            31000000000
+limitIObufferSize                 150000000
+limitOutSAMoneReadBytes           100000
+limitOutSJcollapsed               1000000
+limitOutSJoneRead                 1000
+limitBAMsortRAM                   0
+limitSjdbInsertNsj                1000000
+outFileNamePrefix                 /scratch/N702_3TP_K562_EL4_TNFA_NxSEQ_215cells_14Cy/star
+outTmpDir                         -
+outTmpKeep                        None
+outStd                            Log
+outReadsUnmapped                  None
+outQSconversionAdd                0
+outMultimapperOrder               Old_2.4
+outSAMtype                        SAM   
+outSAMmode                        Full
+outSAMstrandField                 None
+outSAMattributes                  Standard   
+outSAMunmapped                    None   
+outSAMorder                       Paired
+outSAMprimaryFlag                 OneBestScore
+outSAMreadID                      Standard
+outSAMmapqUnique                  255
+outSAMflagOR                      0
+outSAMflagAND                     65535
+outSAMattrRGline                  -   
+outSAMheaderHD                    -   
+outSAMheaderPG                    -   
+outSAMheaderCommentFile           -
+outBAMcompression                 1
+outBAMsortingThreadN              0
+outBAMsortingBinsN                50
+outSAMfilter                      None   
+outSAMmultNmax                    18446744073709551615
+outSAMattrIHstart                 1
+outSAMtlen                        1
+outSJfilterReads                  All
+outSJfilterCountUniqueMin         3   1   1   1   
+outSJfilterCountTotalMin          3   1   1   1   
+outSJfilterOverhangMin            30   12   12   12   
+outSJfilterDistToOtherSJmin       10   0   5   10   
+outSJfilterIntronMaxVsReadN       50000   100000   200000   
+outWigType                        None   
+outWigStrand                      Stranded   
+outWigReferencesPrefix            -
+outWigNorm                        RPM   
+outFilterType                     Normal
+outFilterMultimapNmax             10
+outFilterMultimapScoreRange       1
+outFilterScoreMin                 0
+outFilterScoreMinOverLread        0.66
+outFilterMatchNmin                0
+outFilterMatchNminOverLread       0.66
+outFilterMismatchNmax             10
+outFilterMismatchNoverLmax        0.3
+outFilterMismatchNoverReadLmax    1
+outFilterIntronMotifs             None
+outFilterIntronStrands            RemoveInconsistentStrands
+clip5pNbases                      0   
+clip3pNbases                      0   
+clip3pAfterAdapterNbases          0   
+clip3pAdapterSeq                  -   
+clip3pAdapterMMp                  0.1   
+winBinNbits                       16
+winAnchorDistNbins                9
+winFlankNbins                     4
+winAnchorMultimapNmax             50
+winReadCoverageRelativeMin        0.5
+winReadCoverageBasesMin           0
+scoreGap                          0
+scoreGapNoncan                    -8
+scoreGapGCAG                      -4
+scoreGapATAC                      -8
+scoreStitchSJshift                1
+scoreGenomicLengthLog2scale       -0.25
+scoreDelBase                      -2
+scoreDelOpen                      -2
+scoreInsOpen                      -2
+scoreInsBase                      -2
+seedSearchLmax                    0
+seedSearchStartLmax               50
+seedSearchStartLmaxOverLread      1
+seedPerReadNmax                   1000
+seedPerWindowNmax                 50
+seedNoneLociPerWindow             10
+seedMultimapNmax                  10000
+seedSplitMin                      12
+alignIntronMin                    21
+alignIntronMax                    0
+alignMatesGapMax                  0
+alignTranscriptsPerReadNmax       10000
+alignSJoverhangMin                5
+alignSJDBoverhangMin              3
+alignSJstitchMismatchNmax         0   -1   0   0   
+alignSplicedMateMapLmin           0
+alignSplicedMateMapLminOverLmate    0.66
+alignWindowsPerReadNmax           10000
+alignTranscriptsPerWindowNmax     100
+alignEndsType                     Local
+alignSoftClipAtReferenceEnds      Yes
+alignEndsProtrude                 0   ConcordantPair   
+alignInsertionFlush               None
+peOverlapNbasesMin                0
+peOverlapMMp                      0.01
+chimSegmentMin                    0
+chimScoreMin                      0
+chimScoreDropMax                  20
+chimScoreSeparation               10
+chimScoreJunctionNonGTAG          -1
+chimMainSegmentMultNmax           10
+chimJunctionOverhangMin           20
+chimOutType                       Junctions   
+chimFilter                        banGenomicN   
+chimSegmentReadGapMax             0
+chimMultimapNmax                  0
+chimMultimapScoreRange            1
+chimNonchimScoreDropMin           20
+chimOutJunctionFormat             0   
+sjdbFileChrStartEnd               -   
+sjdbGTFfile                       -
+sjdbGTFchrPrefix                  -
+sjdbGTFfeatureExon                exon
+sjdbGTFtagExonParentTranscript    transcript_id
+sjdbGTFtagExonParentGene          gene_id
+sjdbOverhang                      100
+sjdbScore                         2
+sjdbInsertSave                    Basic
+varVCFfile                        -
+waspOutputMode                    None
+quantMode                         -   
+quantTranscriptomeBAMcompression    1
+quantTranscriptomeBan             IndelSoftclipSingleend
+twopass1readsN                    18446744073709551615
+twopassMode                       None
+----------------------------------------
+
+Finished loading and checking parameters
+Reading genome generation parameters:
+### STAR   --runMode genomeGenerate   --runThreadN 20   --genomeDir /stg1/data2/kanishk/mixedHumanMouse/starGenomeIndexPE100/   --genomeFastaFiles /stg1/data2/kanishk/mixedHumanMouse/hg19_mm10_transgenes.fasta      --sjdbGTFfile /stg1/data2/kanishk/mixedHumanMouse/hg19_mm10_transgenes.gtf   --sjdbOverhang 99
+### GstrandBit=33
+versionGenome                 20201        ~RE-DEFINED
+genomeFastaFiles              /stg1/data2/kanishk/mixedHumanMouse/hg19_mm10_transgenes.fasta        ~RE-DEFINED
+genomeSAindexNbases           14     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+sjdbOverhang                  99     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   /stg1/data2/kanishk/mixedHumanMouse/hg19_mm10_transgenes.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               6035623734   48186867798        ~RE-DEFINED
+Genome version is compatible with current STAR version
+Number of real (reference) chromosomes= 254
+1	HUMAN_1	249250621	0
+2	HUMAN_2	243199373	249298944
+3	HUMAN_3	198022430	492568576
+4	HUMAN_4	191154276	690749440
+5	HUMAN_5	180915260	882114560
+6	HUMAN_6	171115067	1063256064
+7	HUMAN_7	159138663	1234436096
+8	HUMAN_8	146364022	1393819648
+9	HUMAN_9	141213431	1540358144
+10	HUMAN_10	135534747	1681653760
+11	HUMAN_11	135006516	1817444352
+12	HUMAN_12	133851895	1952710656
+13	HUMAN_13	115169878	2086666240
+14	HUMAN_14	107349540	2202009600
+15	HUMAN_15	102531392	2309488640
+16	HUMAN_16	90354753	2412249088
+17	HUMAN_17	81195210	2502688768
+18	HUMAN_18	78077248	2583953408
+19	HUMAN_19	59128983	2662072320
+20	HUMAN_20	63025520	2721316864
+21	HUMAN_21	48129895	2784493568
+22	HUMAN_22	51304566	2832728064
+23	HUMAN_X	155270560	2884108288
+24	HUMAN_Y	59373566	3039559680
+25	HUMAN_MT	16569	3099066368
+26	HUMAN_GL000207.1	4262	3099328512
+27	HUMAN_GL000226.1	15008	3099590656
+28	HUMAN_GL000229.1	19913	3099852800
+29	HUMAN_GL000231.1	27386	3100114944
+30	HUMAN_GL000210.1	27682	3100377088
+31	HUMAN_GL000239.1	33824	3100639232
+32	HUMAN_GL000235.1	34474	3100901376
+33	HUMAN_GL000201.1	36148	3101163520
+34	HUMAN_GL000247.1	36422	3101425664
+35	HUMAN_GL000245.1	36651	3101687808
+36	HUMAN_GL000197.1	37175	3101949952
+37	HUMAN_GL000203.1	37498	3102212096
+38	HUMAN_GL000246.1	38154	3102474240
+39	HUMAN_GL000249.1	38502	3102736384
+40	HUMAN_GL000196.1	38914	3102998528
+41	HUMAN_GL000248.1	39786	3103260672
+42	HUMAN_GL000244.1	39929	3103522816
+43	HUMAN_GL000238.1	39939	3103784960
+44	HUMAN_GL000202.1	40103	3104047104
+45	HUMAN_GL000234.1	40531	3104309248
+46	HUMAN_GL000232.1	40652	3104571392
+47	HUMAN_GL000206.1	41001	3104833536
+48	HUMAN_GL000240.1	41933	3105095680
+49	HUMAN_GL000236.1	41934	3105357824
+50	HUMAN_GL000241.1	42152	3105619968
+51	HUMAN_GL000243.1	43341	3105882112
+52	HUMAN_GL000242.1	43523	3106144256
+53	HUMAN_GL000230.1	43691	3106406400
+54	HUMAN_GL000237.1	45867	3106668544
+55	HUMAN_GL000233.1	45941	3106930688
+56	HUMAN_GL000204.1	81310	3107192832
+57	HUMAN_GL000198.1	90085	3107454976
+58	HUMAN_GL000208.1	92689	3107717120
+59	HUMAN_GL000191.1	106433	3107979264
+60	HUMAN_GL000227.1	128374	3108241408
+61	HUMAN_GL000228.1	129120	3108503552
+62	HUMAN_GL000214.1	137718	3108765696
+63	HUMAN_GL000221.1	155397	3109027840
+64	HUMAN_GL000209.1	159169	3109289984
+65	HUMAN_GL000218.1	161147	3109552128
+66	HUMAN_GL000220.1	161802	3109814272
+67	HUMAN_GL000213.1	164239	3110076416
+68	HUMAN_GL000211.1	166566	3110338560
+69	HUMAN_GL000199.1	169874	3110600704
+70	HUMAN_GL000217.1	172149	3110862848
+71	HUMAN_GL000216.1	172294	3111124992
+72	HUMAN_GL000215.1	172545	3111387136
+73	HUMAN_GL000205.1	174588	3111649280
+74	HUMAN_GL000219.1	179198	3111911424
+75	HUMAN_GL000224.1	179693	3112173568
+76	HUMAN_GL000223.1	180455	3112435712
+77	HUMAN_GL000195.1	182896	3112697856
+78	HUMAN_GL000212.1	186858	3112960000
+79	HUMAN_GL000222.1	186861	3113222144
+80	HUMAN_GL000200.1	187035	3113484288
+81	HUMAN_GL000193.1	189789	3113746432
+82	HUMAN_GL000194.1	191469	3114008576
+83	HUMAN_GL000225.1	211173	3114270720
+84	HUMAN_GL000192.1	547496	3114532864
+85	NC_007605	171823	3115319296
+86	hs37d5	35477943	3115581440
+87	MOUSE_10	130694993	3151233024
+88	MOUSE_11	122082543	3282042880
+89	MOUSE_12	120129022	3404201984
+90	MOUSE_13	120421639	3524526080
+91	MOUSE_14	124902244	3645112320
+92	MOUSE_15	104043685	3770155008
+93	MOUSE_16	98207768	3874226176
+94	MOUSE_17	94987271	3972530176
+95	MOUSE_18	90702639	4067688448
+96	MOUSE_19	61431566	4158652416
+97	MOUSE_1	195471971	4220256256
+98	MOUSE_1_GL456210_random	169725	4415815680
+99	MOUSE_1_GL456211_random	241735	4416077824
+100	MOUSE_1_GL456212_random	153618	4416339968
+101	MOUSE_1_GL456213_random	39340	4416602112
+102	MOUSE_1_GL456221_random	206961	4416864256
+103	MOUSE_2	182113224	4417126400
+104	MOUSE_3	160039680	4599316480
+105	MOUSE_4	156508116	4759486464
+106	MOUSE_4_GL456216_random	66673	4916248576
+107	MOUSE_4_GL456350_random	227966	4916510720
+108	MOUSE_4_JH584292_random	14945	4916772864
+109	MOUSE_4_JH584293_random	207968	4917035008
+110	MOUSE_4_JH584294_random	191905	4917297152
+111	MOUSE_4_JH584295_random	1976	4917559296
+112	MOUSE_5	151834684	4917821440
+113	MOUSE_5_GL456354_random	195993	5069864960
+114	MOUSE_5_JH584296_random	199368	5070127104
+115	MOUSE_5_JH584297_random	205776	5070389248
+116	MOUSE_5_JH584298_random	184189	5070651392
+117	MOUSE_5_JH584299_random	953012	5070913536
+118	MOUSE_6	149736546	5071962112
+119	MOUSE_7	145441459	5221908480
+120	MOUSE_7_GL456219_random	175968	5367398400
+121	MOUSE_8	129401213	5367660544
+122	MOUSE_9	124595110	5497159680
+123	MOUSE_MT	16299	5621940224
+124	MOUSE_Un_GL456239	40056	5622202368
+125	MOUSE_Un_GL456359	22974	5622464512
+126	MOUSE_Un_GL456360	31704	5622726656
+127	MOUSE_Un_GL456366	47073	5622988800
+128	MOUSE_Un_GL456367	42057	5623250944
+129	MOUSE_Un_GL456368	20208	5623513088
+130	MOUSE_Un_GL456370	26764	5623775232
+131	MOUSE_Un_GL456372	28664	5624037376
+132	MOUSE_Un_GL456378	31602	5624299520
+133	MOUSE_Un_GL456379	72385	5624561664
+134	MOUSE_Un_GL456381	25871	5624823808
+135	MOUSE_Un_GL456382	23158	5625085952
+136	MOUSE_Un_GL456383	38659	5625348096
+137	MOUSE_Un_GL456385	35240	5625610240
+138	MOUSE_Un_GL456387	24685	5625872384
+139	MOUSE_Un_GL456389	28772	5626134528
+140	MOUSE_Un_GL456390	24668	5626396672
+141	MOUSE_Un_GL456392	23629	5626658816
+142	MOUSE_Un_GL456393	55711	5626920960
+143	MOUSE_Un_GL456394	24323	5627183104
+144	MOUSE_Un_GL456396	21240	5627445248
+145	MOUSE_Un_JH584304	114452	5627707392
+146	MOUSE_X	171031299	5627969536
+147	MOUSE_X_GL456233_random	336933	5799149568
+148	MOUSE_Y	91744698	5799673856
+149	MOUSE_Y_JH584300_random	182347	5891424256
+150	MOUSE_Y_JH584301_random	259875	5891686400
+151	MOUSE_Y_JH584302_random	155838	5891948544
+152	MOUSE_Y_JH584303_random	158099	5892210688
+153	TRANSGENE_EGFP	720	5892472832
+154	TRANSGENE_EYFP	720	5892734976
+155	TRANSGENE_MCHERRY	684	5892997120
+156	TRANSGENE_TDTOMATO	1431	5893259264
+157	TRANSGENE_CRE	1656	5893521408
+158	TRANSGENE_CRE-ERT2	1983	5893783552
+159	TRANSGENE_ARCHT	747	5894045696
+160	TRANSGENE_CHR2-H134R	1647	5894307840
+161	TRANSGENE_TVA	474	5894569984
+162	TRANSGENE_RVG_RABIESVIRUSGLYCOPROTEIN	1575	5894832128
+163	ERCC_00002	1061	5895094272
+164	ERCC_00003	1023	5895356416
+165	ERCC_00004	523	5895618560
+166	ERCC_00009	984	5895880704
+167	ERCC_00012	994	5896142848
+168	ERCC_00013	808	5896404992
+169	ERCC_00014	1957	5896667136
+170	ERCC_00016	844	5896929280
+171	ERCC_00017	1136	5897191424
+172	ERCC_00019	644	5897453568
+173	ERCC_00022	751	5897715712
+174	ERCC_00024	536	5897977856
+175	ERCC_00025	1994	5898240000
+176	ERCC_00028	1130	5898502144
+177	ERCC_00031	1138	5898764288
+178	ERCC_00033	2022	5899026432
+179	ERCC_00034	1019	5899288576
+180	ERCC_00035	1130	5899550720
+181	ERCC_00039	740	5899812864
+182	ERCC_00040	744	5900075008
+183	ERCC_00041	1122	5900337152
+184	ERCC_00042	1023	5900599296
+185	ERCC_00043	1023	5900861440
+186	ERCC_00044	1156	5901123584
+187	ERCC_00046	522	5901385728
+188	ERCC_00048	992	5901647872
+189	ERCC_00051	274	5901910016
+190	ERCC_00053	1023	5902172160
+191	ERCC_00054	274	5902434304
+192	ERCC_00057	1021	5902696448
+193	ERCC_00058	1136	5902958592
+194	ERCC_00059	525	5903220736
+195	ERCC_00060	523	5903482880
+196	ERCC_00061	1136	5903745024
+197	ERCC_00062	1023	5904007168
+198	ERCC_00067	644	5904269312
+199	ERCC_00069	1137	5904531456
+200	ERCC_00071	642	5904793600
+201	ERCC_00073	603	5905055744
+202	ERCC_00074	522	5905317888
+203	ERCC_00075	1023	5905580032
+204	ERCC_00076	642	5905842176
+205	ERCC_00077	273	5906104320
+206	ERCC_00078	993	5906366464
+207	ERCC_00079	644	5906628608
+208	ERCC_00081	534	5906890752
+209	ERCC_00083	1022	5907152896
+210	ERCC_00084	994	5907415040
+211	ERCC_00085	844	5907677184
+212	ERCC_00086	1020	5907939328
+213	ERCC_00092	1124	5908201472
+214	ERCC_00095	521	5908463616
+215	ERCC_00096	1107	5908725760
+216	ERCC_00097	523	5908987904
+217	ERCC_00098	1143	5909250048
+218	ERCC_00099	1350	5909512192
+219	ERCC_00104	2022	5909774336
+220	ERCC_00108	1022	5910036480
+221	ERCC_00109	536	5910298624
+222	ERCC_00111	994	5910560768
+223	ERCC_00112	1136	5910822912
+224	ERCC_00113	840	5911085056
+225	ERCC_00116	1991	5911347200
+226	ERCC_00117	1136	5911609344
+227	ERCC_00120	536	5911871488
+228	ERCC_00123	1022	5912133632
+229	ERCC_00126	1118	5912395776
+230	ERCC_00130	1059	5912657920
+231	ERCC_00131	771	5912920064
+232	ERCC_00134	274	5913182208
+233	ERCC_00136	1033	5913444352
+234	ERCC_00137	537	5913706496
+235	ERCC_00138	1024	5913968640
+236	ERCC_00142	493	5914230784
+237	ERCC_00143	784	5914492928
+238	ERCC_00144	538	5914755072
+239	ERCC_00145	1042	5915017216
+240	ERCC_00147	1023	5915279360
+241	ERCC_00148	494	5915541504
+242	ERCC_00150	743	5915803648
+243	ERCC_00154	537	5916065792
+244	ERCC_00156	494	5916327936
+245	ERCC_00157	1019	5916590080
+246	ERCC_00158	1027	5916852224
+247	ERCC_00160	743	5917114368
+248	ERCC_00162	523	5917376512
+249	ERCC_00163	543	5917638656
+250	ERCC_00164	1022	5917900800
+251	ERCC_00165	872	5918162944
+252	ERCC_00168	1024	5918425088
+253	ERCC_00170	1023	5918687232
+254	ERCC_00171	505	5918949376
+--sjdbOverhang = 99 taken from the generated genome
+Started loading the genome: Mon Jan 27 15:52:00 2025
+
+Genome: size given as a parameter = 6035623734
+SA: size given as a parameter = 48186867798
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=14  nSAi=357913940
+nGenome=6035623734;  nSAbyte=48186867798
+GstrandBit=33   SA number of indices=11338086540
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 6035623734 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 6035623734 bytes
+SA file size: 48186867798 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 48186867798 bytes
+Loading SAindex ... done: 1610612861 bytes
+Finished loading the genome: Mon Jan 27 15:57:15 2025
+
+Processing splice junctions database sjdbN=584986,   pGe.sjdbOverhang=99 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Created thread # 1
+Created thread # 2
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Created thread # 6
+Created thread # 7
+Created thread # 8
+Created thread # 9
+Created thread # 10
+Created thread # 11
+Created thread # 12
+Created thread # 13
+Created thread # 14
+Created thread # 15
+Created thread # 16
+Created thread # 17
+Created thread # 18
+Created thread # 19
+Thread #3 end of input stream, nextChar=-1
+Completed: thread #14
+Completed: thread #7
+Completed: thread #15
+Completed: thread #4
+Completed: thread #18
+Completed: thread #3
+Completed: thread #5
+Completed: thread #6
+Completed: thread #0
+Completed: thread #13
+Completed: thread #9
+Completed: thread #2
+Completed: thread #1
+Joined thread # 1
+Joined thread # 2
+Joined thread # 3
+Joined thread # 4
+Joined thread # 5
+Joined thread # 6
+Joined thread # 7
+Completed: thread #8
+Joined thread # 8
+Joined thread # 9
+Completed: thread #19
+Completed: thread #11
+Completed: thread #16
+Completed: thread #12
+Completed: thread #17
+Completed: thread #10
+Joined thread # 10
+Joined thread # 11
+Joined thread # 12
+Joined thread # 13
+Joined thread # 14
+Joined thread # 15
+Joined thread # 16
+Joined thread # 17
+Joined thread # 18
+Joined thread # 19
+ALL DONE!

@@ -1,0 +1,23 @@
+/new-stg/home/kanishk2/mixedHumanMouse/PE100/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy
+compute-2
+Mon Jan 27 03:02:18 PST 2025
+Namespace(READ1_FASTQ='/stg1/data2/kanishk/BaseSpace_Data/PE100_Data/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy_S3_L003_R1_001.fastq.gz', READ2_FASTQ='/stg1/data2/kanishk/BaseSpace_Data/PE100_Data/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy_S3_L003_R2_001.fastq.gz', SAMPLE_DIRECTORY_PATH='/stg1/data2/kanishk/kanishk2/mixedHumanMouse/PE100/January2025ChronoSeqV5andV4_3Timepoint_TNFA_EL4_K562/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy', SAMPLE_NAME='N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy')
+Lock Acquired Starting Copy to Scratch!
+Started Copying files to  /scratch/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy/starGenomeIndex  at:  2025-01-27 03:02:25.202874
+Finished Copying files to  /scratch/N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy/starGenomeIndex  at:  2025-01-27 03:05:34.138239
+Time Taken : 0:03:08.935365
+Started Copying :  N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy_S3_L003_R1_001.fastq.gz  at  2025-01-27 03:05:34.138691
+Finished Copying :  N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy_S3_L003_R1_001.fastq.gz  at  2025-01-27 03:07:03.600307
+Time Taken:  0:01:29.461616
+Started Copying :  N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy_S3_L003_R2_001.fastq.gz  at  2025-01-27 03:07:03.600556
+Finished Copying :  N704_3TP_K562_EL4_TNFA_NxSEQ_430cells_11Cy_S3_L003_R2_001.fastq.gz  at  2025-01-27 03:08:22.004404
+Time Taken:  0:01:18.403848
+Started Copying :  hg19_mm10_transgenes.fasta  at  2025-01-27 03:08:22.004717
+Finished Copying :  hg19_mm10_transgenes.fasta  at  2025-01-27 03:08:40.563296
+Time Taken:  0:00:18.558579
+Started Copying :  hg19_mm10_transgenes.refFlat  at  2025-01-27 03:08:40.563341
+Finished Copying :  hg19_mm10_transgenes.refFlat  at  2025-01-27 03:08:40.807730
+Time Taken:  0:00:00.244389
+Started Copying :  hg19_mm10_transgenes.dict  at  2025-01-27 03:08:40.807773
+Finished Copying :  hg19_mm10_transgenes.dict  at  2025-01-27 03:08:40.816553
+Time Taken:  0:00:00.008780

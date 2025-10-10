@@ -1,0 +1,6 @@
+/new-stg/home/kanishk2/mixedHumanMouse/July_2024_QC_3Timepoint_SC_ChronoSeqV4_Pilot_PBMC_K562/BULK_QC_12TP_K562_EL4
+gpu-1
+Tue Jul 30 16:03:21 PDT 2024
+Namespace(READ1_FASTQ='/stg1/data2/kanishk/BaseSpace_Data/July_2024_QC_3Timepoint_SC_ChronoSeqV4_Pilot_PBMC_K562/BULK_QC_12TP_K562_EL4_S1_L005_R1_001.fastq.gz', READ2_FASTQ='/stg1/data2/kanishk/BaseSpace_Data/July_2024_QC_3Timepoint_SC_ChronoSeqV4_Pilot_PBMC_K562/BULK_QC_12TP_K562_EL4_S1_L005_R2_001.fastq.gz', SAMPLE_DIRECTORY_PATH='/stg1/data2/kanishk/kanishk2/mixedHumanMouse/July_2024_QC_3Timepoint_SC_ChronoSeqV4_Pilot_PBMC_K562/BULK_QC_12TP_K562_EL4', SAMPLE_NAME='BULK_QC_12TP_K562_EL4')
+Lock Acquired Starting Copy to Scratch!
+Started Copying files to  /scratch/BULK_QC_12TP_K562_EL4/starGenomeIndex  at:  2024-07-30 16:03:23.031657
